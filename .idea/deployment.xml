@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="Despliegue Servidor Remoto" compareModeInSync="TIMESTAMP" showNewOnTargetInSync="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Despliegue Servidor Remoto" uploadOnCheckin="e8597545-30df-4d1a-a891-2dbfbbe0a616" compareModeInSync="TIMESTAMP" showNewOnTargetInSync="false">
     <serverData>
       <paths name="Despliegue Servidor Clase">
         <serverdata>
@@ -67,6 +67,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="Despliegue Servidor Remoto" />
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

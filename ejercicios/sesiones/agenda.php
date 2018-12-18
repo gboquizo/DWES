@@ -43,12 +43,12 @@ if (isset($_POST["crearContacto"]) || !isset($routes[4]) || !isset($_POST["modif
         unset($_SESSION["contactos"][$routes[5]]);
         header('Location: http://cpd.iesgrancapitan.org:9119/~qbsagu/ejercicios/sesiones/agenda');
     }
-    
+
     if (isset($routes[4]) && $routes[4] === "modificar" && isset($routes[5])) {
         $name = $_SESSION["contactos"][$routes[5]]["nombre"];
         $telephone = $_SESSION["contactos"][$routes[5]]["telefono"];
     }
-    
+
     if (isset($_POST["modificarContacto"])) {
         $_SESSION['contactos'][$_POST["contactoModificado"]]['nombre'] = $_POST['nombre'];
         $_SESSION['contactos'][$_POST["contactoModificado"]]['telefono'] = $_POST['telefono'];
@@ -85,7 +85,8 @@ if (isset($_POST["cerrarSesion"])) {
                     <?php endif ?>
 
                     <?php if (isset($_POST["create"]) || isset($routes[4]) && $routes[4] === "modificar" || $flagNameError || $flagTelephoneError) : ?>
-                        <form action="http://cpd.iesgrancapitan.org:9119/~qbsagu/ejercicios/sesiones/agenda" method="post">
+                        <form action="http://cpd.iesgrancapitan.org:9119/~qbsagu/ejercicios/sesiones/agenda"
+                              method="post">
                             Nombre:
                             <input type="text" name="nombre" value="<?php echo $name ?>"<span
                                     class="error"><?php echo $nameError ?></span><br><br>
@@ -167,7 +168,8 @@ if (isset($_POST["cerrarSesion"])) {
                 </div>
                 <div class="botonera">
                     <div>
-                        <a href="<?php echo $basepath ?>ejercicios/<?php echo isset($routes[4]) ? "sesiones/agenda" : "" ?>" class="btnVolver">Volver</a>
+                        <a href="<?php echo $basepath ?>ejercicios/<?php echo isset($routes[4]) ? "sesiones/agenda" : "" ?>"
+                           class="btnVolver">Volver</a>
                     </div>
                     <div>
                         <a class="btnVolver" href='<?php echo $basepath ?>verCodigo?src=ejercicios/sesiones/agenda.php'>Ver
