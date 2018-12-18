@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/ejercicios/basicos/multiplicationTable.php" line="17" mnemonic="7" />
+    <bookmark url="file://$PROJECT_DIR$/css/estilos.css" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b394e9e2-38cd-4705-91e8-089a6bdf2b89" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proyectos/verbosIrregulares/irregularVerbsProject.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="226" column="38" lean-forward="true" selection-start-line="226" selection-start-column="38" selection-end-line="226" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/verCodigo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/browserconfig.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ejercicios/sesiones/agenda.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="169" column="107" selection-start-line="169" selection-start-column="99" selection-end-line="169" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_blank</find>
+      <find>Foto</find>
+      <find>;</find>
+      <find>numero</find>
+      <find>$contrasenaErr</find>
+      <find>index.php?ejercicios=ejercicios&amp;ejercicio=arrays&amp;src=</find>
+      <find>../ejercicios/formularios/</find>
+      <find>../ejercicios/funciones/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>blank</replace>
+      <replace>foto</replace>
+      <replace>$verbos</replace>
+      <replace>user</replace>
+      <replace>password</replace>
+      <replace>$user</replace>
+      <replace>$passError</replace>
+      <replace>index.php?ejercicios=ejercicios&amp;ejercicio=cookies&amp;src=</replace>
+      <replace>index.php?ejercicios=ejercicios&amp;ejercicio=funciones&amp;src=</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ejercicios/cookies/includes/srclogincookies.php" />
+        <option value="$PROJECT_DIR$/ejercicios/sesiones/agenda.php" />
+        <option value="$PROJECT_DIR$/ejercicios/plantilla/plantilla.php" />
+        <option value="$PROJECT_DIR$/ejercicios/funciones/calcularDNI.php" />
+        <option value="$PROJECT_DIR$/ejercicios/funciones/obtenerIniciales.php" />
+        <option value="$PROJECT_DIR$/ejercicios/funciones/contrasennaSegura.php" />
+        <option value="$PROJECT_DIR$/ejercicios/funciones/sumarDigitos.php" />
+        <option value="$PROJECT_DIR$/ejercicios/objetos/Preferencia.php" />
+        <option value="$PROJECT_DIR$/ejercicios/objetos/prueba.php" />
+        <option value="$PROJECT_DIR$/ejercicios/objetos/prueba2.php" />
+        <option value="$PROJECT_DIR$/ejercicios/objetos/Contador.php" />
+        <option value="$PROJECT_DIR$/sitio.xml" />
+        <option value="$PROJECT_DIR$/ejercicios/objetos/prueba3.php" />
+        <option value="$PROJECT_DIR$/ejercicios/objetos/Perro.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="&lt;3e85e0af-7033-4838-991e-7d679dfe5ea9&gt;/proyectos/mascotas/mascotas.php" />
+        <option value="$PROJECT_DIR$/proyectos/mascotas/mascotas.php" />
+        <option value="$PROJECT_DIR$/proyectos/mascotas/index.php" />
+        <option value="$PROJECT_DIR$/ejercicios/objetos/Usuario.php" />
+        <option value="$PROJECT_DIR$/pages/proyectos.php" />
+        <option value="$PROJECT_DIR$/ejercicios/objetos/Persona.php" />
+        <option value="$PROJECT_DIR$/proyectos/mascotas/app/models/Persona.php" />
+        <option value="$PROJECT_DIR$/ejercicios/sesiones/autentificacionbasica.php" />
+        <option value="&lt;e8597545-30df-4d1a-a891-2dbfbbe0a616&gt;/css/estilos.css" />
+        <option value="$PROJECT_DIR$/css/estilos.css" />
+        <option value="$PROJECT_DIR$/includes/header.php" />
+        <option value="$PROJECT_DIR$/ejercicios/sesiones/autentificacion.php" />
+        <option value="$PROJECT_DIR$/ejercicios/sesiones/contadorVisitas.php" />
+        <option value="$PROJECT_DIR$/pages/ejercicios.php" />
+        <option value="$PROJECT_DIR$/ejercicios/cookies/contadorVisitas.php" />
+        <option value="$PROJECT_DIR$/ejercicios/plantilla.php" />
+        <option value="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/index.php" />
+        <option value="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/config.php" />
+        <option value="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/footer.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/config/config.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/clases/BD.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/clases/Config.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/clases/Usuario.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/clases/Documento.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/clases/Usuarios.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/clases/gestionDocumentos.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/clases/ClaveFirmas.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/clases/gestionClavesFirmas.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/pages/login.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/funciones.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/pages/loginCorrecto.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/index.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/includes/footer.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/includes/header.php" />
+        <option value="$PROJECT_DIR$/../exDiciembre/pages/registro.php" />
+        <option value="$PROJECT_DIR$/proyectos/verbosIrregulares/irregularVerbsProject.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="90" />
+    <option name="y" value="101" />
+    <option name="width" value="883" />
+    <option name="height" value="768" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DWES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exDiciembre" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ejercicios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ejercicios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="objetos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ejercicios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="plantilla" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ejercicios/cookies" />
+      <recent name="F:\home\guillermo\Escritorio\2º DAW bis\DWES\DWES\proyectos\mascotas" />
+      <recent name="$PROJECT_DIR$/ejercicios/basicos" />
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="F:\home\guillermo\Escritorio\2º DAW bis\DWES\DWES" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../exDiciembre/pages" />
+      <recent name="$PROJECT_DIR$/ejercicios/BBDD" />
+      <recent name="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes" />
+      <recent name="$PROJECT_DIR$/ejercicios/sesiones" />
+      <recent name="F:\home\guillermo\Escritorio\2º DAW bis\DWES\DWES\app\models" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://192.168.115.63/proyectos/mascotas/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b394e9e2-38cd-4705-91e8-089a6bdf2b89" name="Default Changelist" comment="" />
+      <created>1538604232468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538604232468</updated>
+      <workItem from="1538604233794" duration="3414000" />
+      <workItem from="1538634848838" duration="5211000" />
+      <workItem from="1538653291896" duration="19533000" />
+      <workItem from="1538734073860" duration="8792000" />
+      <workItem from="1538817985495" duration="24807000" />
+      <workItem from="1538984572742" duration="2835000" />
+      <workItem from="1539019221345" duration="17312000" />
+      <workItem from="1539066703087" duration="17837000" />
+      <workItem from="1539103375401" duration="24427000" />
+      <workItem from="1539155657542" duration="1134000" />
+      <workItem from="1539156827302" duration="3822000" />
+      <workItem from="1539168699955" duration="4439000" />
+      <workItem from="1539191920974" duration="25451000" />
+      <workItem from="1539341247994" duration="34000" />
+      <workItem from="1539341841413" duration="877000" />
+      <workItem from="1539632864009" duration="7613000" />
+      <workItem from="1539642167744" duration="10673000" />
+      <workItem from="1539773264474" duration="2263000" />
+      <workItem from="1539789831001" duration="41000" />
+      <workItem from="1539789894142" duration="17719000" />
+      <workItem from="1539873169884" duration="12989000" />
+      <workItem from="1539934740224" duration="2125000" />
+      <workItem from="1540235750675" duration="8863000" />
+      <workItem from="1540277023603" duration="5077000" />
+      <workItem from="1540535677111" duration="943000" />
+      <workItem from="1540536645213" duration="1198000" />
+      <workItem from="1540895197316" duration="699000" />
+      <workItem from="1540900958447" duration="15933000" />
+      <workItem from="1540971540298" duration="31790000" />
+      <workItem from="1541070723301" duration="4734000" />
+      <workItem from="1541403053569" duration="12000" />
+      <workItem from="1541403103318" duration="328000" />
+      <workItem from="1541489344414" duration="6393000" />
+      <workItem from="1541495987119" duration="392000" />
+      <workItem from="1541576385236" duration="8000" />
+      <workItem from="1541576409293" duration="1182000" />
+      <workItem from="1541588373154" duration="8204000" />
+      <workItem from="1541625166386" duration="8337000" />
+      <workItem from="1541662921124" duration="8144000" />
+      <workItem from="1541749099813" duration="6564000" />
+      <workItem from="1541758032989" duration="1641000" />
+      <workItem from="1541770508318" duration="9674000" />
+      <workItem from="1541851941254" duration="5094000" />
+      <workItem from="1541857065613" duration="7349000" />
+      <workItem from="1542012021211" duration="315000" />
+      <workItem from="1542012361059" duration="407000" />
+      <workItem from="1542028926034" duration="11038000" />
+      <workItem from="1542134709279" duration="1229000" />
+      <workItem from="1542203326999" duration="3955000" />
+      <workItem from="1542237484260" duration="155000" />
+      <workItem from="1542237663882" duration="7459000" />
+      <workItem from="1542353323029" duration="6775000" />
+      <workItem from="1542666477055" duration="619000" />
+      <workItem from="1544191535562" duration="17000" />
+      <workItem from="1544194274449" duration="12335000" />
+      <workItem from="1544468641938" duration="624000" />
+      <workItem from="1544515500857" duration="17000" />
+      <workItem from="1544525208979" duration="44000" />
+      <workItem from="1544615345162" duration="2616000" />
+      <workItem from="1545125324797" duration="1683000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="395195000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <layout>
+      <window_info id="Structure" order="0" sideWeight="0.50079745" side_tool="true" weight="0.25416037" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49920255" visible="true" weight="0.30873924" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3270869" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26944444" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49924356" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32984293" />
+      <window_info anchor="bottom" id="CSS Styles" order="14" weight="0.32962447" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3290469" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.55014324" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" sideWeight="0.50079745" side_tool="true" weight="0.25416037" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49920255" visible="true" weight="0.32020056" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32823366" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3253833" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.25312933" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32984293" />
+      <window_info anchor="bottom" id="CSS Styles" order="14" weight="0.32962447" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3294964" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.4561151" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/proyectos/mascotas/app/models/Perro.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/prueba2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyectos/mascotas/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/proyectos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyectos/mascotas/app/models/Persona.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/Persona.php" />
+    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/prueba3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/estilos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="1090" column="1" selection-start-line="1090" selection-start-column="1" selection-end-line="1090" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/ejercicios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="128" column="99" selection-start-line="128" selection-start-column="99" selection-end-line="128" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/cookies/contadorVisitas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="122" selection-start-line="29" selection-start-column="122" selection-end-line="29" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/plantilla.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/pages.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/BD.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/config/config.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/Documento.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/Usuario.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/gestionDocumentos.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/Usuarios.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/ClaveFirmas.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/Config.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/gestionClavesFirmas.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/pages/principal.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/pages.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/pages/login.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/funciones.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/pages/ejercicios.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/index.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/includes/footer.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/includes/header.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/pages/registro.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/pages/loginCorrecto.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/includes/nav.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/includes/social-media.php" />
+    <entry file="file://$PROJECT_DIR$/../exDiciembre/includes/router.php" />
+    <entry file="file://$PROJECT_DIR$/ejercicios/sesiones/autentificacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="29" column="91" selection-start-line="28" selection-start-column="19" selection-end-line="29" selection-end-column="91" />
+          <folding>
+            <element signature="e#6#239#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/sesiones/cerrarsession.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/arrays/irregularVerbs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/funciones/sumarDigitos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="38" column="36" selection-start-line="33" selection-start-column="24" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyectos/verbosIrregulares/irregularVerbsProject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="226" column="38" lean-forward="true" selection-start-line="226" selection-start-column="38" selection-end-line="226" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/verCodigo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browserconfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/sesiones/agenda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="169" column="107" selection-start-line="169" selection-start-column="99" selection-end-line="169" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
