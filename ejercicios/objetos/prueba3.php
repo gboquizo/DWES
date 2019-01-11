@@ -17,5 +17,5 @@ $c2->contar();
 $c2->contar();
 echo "Contador 2: " . $c2 . "<br/>";
 
-echo "Contador de instancias: " . Contador:: "<br/>";
+echo "<br/>Contador de instancias: " . Contador::contarInstancias(). "<br/>";
 

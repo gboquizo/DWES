@@ -124,7 +124,7 @@ if (isset($_POST["cerrarSesion"])) {
                                     <td class="contenido-paises-td">
                                         <a href='<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>/modificar/<?php echo $key ?>'>
                                             <img class="contenido-paises-img"
-                                                 src='../../ejercicios/sesiones//images/modificar.png'
+                                                 src='../../ejercicios/sesiones/images/modificar.png'
                                                  title='Modificar contacto'>
                                         </a>
                                         <a href='<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>/borrar/<?php echo $key ?>'>

@@ -6,7 +6,7 @@
  * @author Guillermo Boquizo Sánchez.
  * @copyright  2018-2019
  * @version 1.0
- * @category index.php
+ * @category agenda.php
  * @package  mascotas
  */
 ?>

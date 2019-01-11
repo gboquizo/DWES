@@ -1,7 +1,7 @@
 <?php
 /**
  * @User: Guillermo Boquizo Sánchez
- * @File: index.php
+ * @File: agenda.php
  * @Date: 11/12/18
  * @Description:Index del examen.
  * @license http://opensource.org/licenses/gpl-license.php  GNU Public License

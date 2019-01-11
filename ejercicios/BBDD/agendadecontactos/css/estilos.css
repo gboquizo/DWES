@@ -1,0 +1,62 @@
+
+form{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#buscar{
+    background: url("../images/search.png") no-repeat;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    padding: 1px;
+
+}
+#ver{
+    background: url("../images/ver.png") no-repeat;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin-top: 60%;
+
+
+}
+
+#annadir{
+    background: url("../images/add.png") no-repeat;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    padding: 1px;
+}
+
+#listaContactos{
+    width: 80%;
+    margin: 0 auto;
+    border: 4px solid #C2C810;
+    background-color: #F2F5A9;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px #0101DF;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+table{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+    vertical-align: middle;
+}
+
+th{
+    text-align: center;
+}
+td{
+    padding: 5px;
+    border-bottom: 2px dashed black;
+}
+
+

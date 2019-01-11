@@ -6,7 +6,7 @@
  * @Description: Define el header general del sitio.
  * @license http://opensource.org/licenses/gpl-license.php  GNU Public License
  */
-//echo "<pre>" . print_r($routes, true) . "</pre>"
+echo "<pre>" . print_r($routes, true) . "</pre>"
 ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,6 +24,9 @@
 <?php if ($routes[1] === "ejercicios" && isset($routes[3]) && $routes[3] === "agenda") : ?>
     <link rel="stylesheet" href="/~qbsagu/ejercicios/sesiones/css/estilos.css">
     <title>Agenda</title>
+<?php elseif ($routes[1] === "ejercicios" && isset($routes[4]) && $routes[4] === "agenda") : ?>
+    <link rel="stylesheet" href="/~qbsagu/ejercicios/BBDD/agendadecontactos/css/estilos.css">
+    <title>Agenda con BBDD</title>
 <?php elseif ($routes[1] === "ejercicios" && isset($routes[3]) && $routes[3] === "buscaminas") : ?>
     <script src="/~qbsagu/ejercicios/sesiones/js/script.js"></script>
     <title>Buscaminas</title>

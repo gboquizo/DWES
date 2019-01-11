@@ -5,7 +5,39 @@
     <bookmark url="file://$PROJECT_DIR$/css/estilos.css" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b394e9e2-38cd-4705-91e8-089a6bdf2b89" name="Default Changelist" comment="" />
+    <list default="true" id="b394e9e2-38cd-4705-91e8-089a6bdf2b89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FiraCode-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/agenda.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/app/models/Contacto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/css/estilos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/eliminar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/modificar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/ver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/Usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/app/models/Usuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/prueba3.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/prueba3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/sesiones/agenda.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/sesiones/agenda.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/ejercicios.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ejercicios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/index.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +59,40 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ejercicios/sesiones/agenda.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="126" column="80" lean-forward="true" selection-start-line="126" selection-start-column="80" selection-end-line="126" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/agenda.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-212">
+              <caret line="90" column="58" selection-start-line="90" selection-start-column="58" selection-end-line="90" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/css/estilos.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,35 +131,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ejercicios/cookies/includes/srclogincookies.php" />
-        <option value="$PROJECT_DIR$/ejercicios/sesiones/agenda.php" />
-        <option value="$PROJECT_DIR$/ejercicios/plantilla/plantilla.php" />
-        <option value="$PROJECT_DIR$/ejercicios/funciones/calcularDNI.php" />
-        <option value="$PROJECT_DIR$/ejercicios/funciones/obtenerIniciales.php" />
-        <option value="$PROJECT_DIR$/ejercicios/funciones/contrasennaSegura.php" />
-        <option value="$PROJECT_DIR$/ejercicios/funciones/sumarDigitos.php" />
         <option value="$PROJECT_DIR$/ejercicios/objetos/Preferencia.php" />
         <option value="$PROJECT_DIR$/ejercicios/objetos/prueba.php" />
         <option value="$PROJECT_DIR$/ejercicios/objetos/prueba2.php" />
         <option value="$PROJECT_DIR$/ejercicios/objetos/Contador.php" />
         <option value="$PROJECT_DIR$/sitio.xml" />
-        <option value="$PROJECT_DIR$/ejercicios/objetos/prueba3.php" />
         <option value="$PROJECT_DIR$/ejercicios/objetos/Perro.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="&lt;3e85e0af-7033-4838-991e-7d679dfe5ea9&gt;/proyectos/mascotas/mascotas.php" />
         <option value="$PROJECT_DIR$/proyectos/mascotas/mascotas.php" />
         <option value="$PROJECT_DIR$/proyectos/mascotas/index.php" />
-        <option value="$PROJECT_DIR$/ejercicios/objetos/Usuario.php" />
         <option value="$PROJECT_DIR$/pages/proyectos.php" />
         <option value="$PROJECT_DIR$/ejercicios/objetos/Persona.php" />
         <option value="$PROJECT_DIR$/proyectos/mascotas/app/models/Persona.php" />
         <option value="$PROJECT_DIR$/ejercicios/sesiones/autentificacionbasica.php" />
         <option value="&lt;e8597545-30df-4d1a-a891-2dbfbbe0a616&gt;/css/estilos.css" />
         <option value="$PROJECT_DIR$/css/estilos.css" />
-        <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/ejercicios/sesiones/autentificacion.php" />
         <option value="$PROJECT_DIR$/ejercicios/sesiones/contadorVisitas.php" />
-        <option value="$PROJECT_DIR$/pages/ejercicios.php" />
         <option value="$PROJECT_DIR$/ejercicios/cookies/contadorVisitas.php" />
         <option value="$PROJECT_DIR$/ejercicios/plantilla.php" />
         <option value="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/index.php" />
@@ -117,14 +171,25 @@
         <option value="$PROJECT_DIR$/../exDiciembre/includes/header.php" />
         <option value="$PROJECT_DIR$/../exDiciembre/pages/registro.php" />
         <option value="$PROJECT_DIR$/proyectos/verbosIrregulares/irregularVerbsProject.php" />
+        <option value="$PROJECT_DIR$/ejercicios/sesiones/js/script.js" />
+        <option value="$PROJECT_DIR$/ejercicios/objetos/Usuario.php" />
+        <option value="$PROJECT_DIR$/ejercicios/objetos/app/models/Usuario.php" />
+        <option value="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/app/models/Contacto.php" />
+        <option value="$PROJECT_DIR$/ejercicios/objetos/prueba3.php" />
+        <option value="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/index.php" />
+        <option value="$PROJECT_DIR$/pages/ejercicios.php" />
+        <option value="$PROJECT_DIR$/pages.php" />
+        <option value="$PROJECT_DIR$/ejercicios/sesiones/agenda.php" />
+        <option value="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/agenda.php" />
+        <option value="$PROJECT_DIR$/includes/header.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="90" />
-    <option name="y" value="101" />
-    <option name="width" value="883" />
-    <option name="height" value="768" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -150,6 +215,40 @@
               <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
+            <path>
+              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ejercicios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ejercicios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="BBDD" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ejercicios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="BBDD" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="agendadecontactos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ejercicios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="BBDD" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="agendadecontactos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ejercicios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="BBDD" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="agendadecontactos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="images" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -164,7 +263,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/xampp/htdocs/Plantillas_Local/Montaje/guillermoboquizosanchez.es/agenda" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -172,18 +271,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CFGS Desarrollo de Aplicaciones Web\2º DAW b\DWES\DWES\ejercicios\objetos\app\models" />
+      <recent name="D:\CFGS Desarrollo de Aplicaciones Web\2º DAW b\DWES\DWES\ejercicios\objetos\app" />
       <recent name="$PROJECT_DIR$/ejercicios/cookies" />
       <recent name="F:\home\guillermo\Escritorio\2º DAW bis\DWES\DWES\proyectos\mascotas" />
       <recent name="$PROJECT_DIR$/ejercicios/basicos" />
-      <recent name="$PROJECT_DIR$/pages" />
-      <recent name="F:\home\guillermo\Escritorio\2º DAW bis\DWES\DWES" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CFGS Desarrollo de Aplicaciones Web\2º DAW b\DWES\DWES\ejercicios\BBDD\agendadecontactos\css" />
+      <recent name="D:\CFGS Desarrollo de Aplicaciones Web\2º DAW b\DWES\DWES\ejercicios\BBDD\agendadecontactos" />
+      <recent name="D:\CFGS Desarrollo de Aplicaciones Web\2º DAW b\DWES\DWES\ejercicios\BBDD\agendadecontactos\app\models" />
       <recent name="$PROJECT_DIR$/../exDiciembre/pages" />
       <recent name="$PROJECT_DIR$/ejercicios/BBDD" />
-      <recent name="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes" />
-      <recent name="$PROJECT_DIR$/ejercicios/sesiones" />
-      <recent name="F:\home\guillermo\Escritorio\2º DAW bis\DWES\DWES\app\models" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -279,20 +378,34 @@
       <workItem from="1544615345162" duration="2616000" />
       <workItem from="1545125324797" duration="1683000" />
       <workItem from="1546955088826" duration="55000" />
+      <workItem from="1546955208714" duration="768000" />
+      <workItem from="1546971126838" duration="692000" />
+      <workItem from="1547047436771" duration="196000" />
+      <workItem from="1547106310658" duration="3633000" />
+      <workItem from="1547119526389" duration="12711000" />
     </task>
+    <task id="LOCAL-00001" summary="fixing">
+      <created>1546955326561</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546955326561</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="395250000" />
+    <option name="totallyTimeSpent" value="413250000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50079745" side_tool="true" weight="0.25416037" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49920255" visible="true" weight="0.31303725" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49920255" weight="0.33963692" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3270869" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3265306" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26944444" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -301,8 +414,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32993197" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49924356" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32984293" />
       <window_info anchor="bottom" id="CSS Styles" order="14" weight="0.32962447" />
@@ -310,7 +423,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3290469" />
-      <window_info anchor="right" id="Remote Host" order="4" weight="0.55014324" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.5487106" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" sideWeight="0.50079745" side_tool="true" weight="0.25416037" />
@@ -345,145 +458,10 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/prueba2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proyectos/mascotas/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/prueba.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/proyectos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proyectos/mascotas/app/models/Persona.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/Persona.php" />
-    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/prueba3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/estilos.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="1090" column="1" selection-start-line="1090" selection-start-column="1" selection-end-line="1090" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/ejercicios.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="128" column="99" selection-start-line="128" selection-start-column="99" selection-end-line="128" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/cookies/contadorVisitas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="122" selection-start-line="29" selection-start-column="122" selection-end-line="29" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/plantilla.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/pages.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/BD.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/config/config.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/Documento.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/Usuario.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/gestionDocumentos.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/Usuarios.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/ClaveFirmas.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/Config.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/clases/gestionClavesFirmas.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/pages/principal.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/pages.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/pages/login.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/funciones.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/pages/ejercicios.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/index.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/includes/footer.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/includes/header.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/pages/registro.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/pages/loginCorrecto.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/includes/nav.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/includes/social-media.php" />
-    <entry file="file://$PROJECT_DIR$/../exDiciembre/includes/router.php" />
     <entry file="file://$PROJECT_DIR$/ejercicios/sesiones/autentificacion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -504,24 +482,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ejercicios/funciones/sumarDigitos.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-36">
           <caret line="38" column="36" selection-start-line="33" selection-start-column="24" selection-end-line="49" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/sesiones/agenda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="169" column="25" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -545,6 +509,227 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-10340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/sesiones/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Revisión/gamemi/public_html/practicas/DWES/Bbdd/agendaDeContactos/agenda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3128" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_classmap.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_namespaces.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-518" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_static.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5724" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/app/models/Contador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/plantilla.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#179#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/app/models/Preferencia.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/pages.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/app/models/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyectos/mascotas/prueba.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyectos/mascotas/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/principal.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/app/models/Preferencia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/app/models/Perro.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/app/models/Contacto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1110">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/app/models/Persona.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/prueba3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/prueba2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/ejercicios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/add.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/eliminar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/modificar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/search.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/ver.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/sesiones/agenda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="126" column="80" lean-forward="true" selection-start-line="126" selection-start-column="80" selection-end-line="126" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/agenda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-212">
+          <caret line="90" column="58" selection-start-line="90" selection-start-column="58" selection-end-line="90" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/css/estilos.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+        </state>
       </provider>
     </entry>
   </component>
