@@ -26,7 +26,7 @@ $secondSurname = "";
 $email = "";
 
 
-if (isset($_POST["crearContacto"]) || !isset($routes[4]) || !isset($_POST["modificarContacto"])) {
+if (isset($_POST["crearContacto"]) || isset($routes[5])|| isset($_POST["modificarContacto"])) {
     if (isset($_POST["crearContacto"])) {
 
         if (empty($_POST["nombre"])) {
@@ -110,6 +110,15 @@ if (isset($_POST["cerrarSesion"])) {
     session_destroy();
 }
 
+$header = false;
+if (isset($_POST["buscar"]) && !empty($_SESSION["contactos"])) {
+    foreach ($_SESSION["contactos"] as $key => $valor) {
+        if (preg_match('#^' . strtoupper(trim($_POST['nombreBuscar'])) . '.*#s', strtoupper(trim($valor["nombre"])))) {
+            $header = true;
+        }
+    }
+}
+
 ?>
 <section class='principal'>
     <h2>Agenda de contactos con BBDD</h2>
@@ -176,7 +185,7 @@ if (isset($_POST["cerrarSesion"])) {
                     <?php if (($table && !empty($_SESSION["contactos"])
                             || isset($_POST["borrar"])
                             || (isset($routes[5]) && $routes[5] === "borrar"))
-                            && !isset($_POST["buscar"])) : ?>
+                        && !isset($_POST["buscar"])) : ?>
                         <table class="contenido-paises-tabla">
                             <tr>
                                 <th class="contenido-paises-th">Nombre</th>
@@ -212,38 +221,42 @@ if (isset($_POST["cerrarSesion"])) {
 
                     <!--Necesita filtrar en caso de ausencia de contacto -->
                     <?php if (isset($_POST["buscar"]) && !empty($_SESSION["contactos"])) : ?>
-                        <table class="contenido-paises-tabla">
-                            <tr>
-                                <th class="contenido-paises-th">Nombre</th>
-                                <th class="contenido-paises-th">Primer apellido</th>
-                                <th class="contenido-paises-th">Segundo apellido</th>
-                                <th class="contenido-paises-th">Email</th>
-                                <th class="contenido-paises-th">Teléfono</th>
-                                <th class="contenido-paises-th">Opciones</th>
-                            </tr>
-                            <?php foreach ($_SESSION["contactos"] as $key => $valor) : ?>
-                                <?php if (preg_match('#^' . strtoupper(trim($_POST['nombreBuscar'])) . '.*#s', strtoupper(trim($valor["nombre"])))) : ?>
-                                    <tr>
-                                        <td class="contenido-paises-td"><?php echo $valor["nombre"] ?></td>
-                                        <td class="contenido-paises-td"><?php echo $valor["apellido1"] ?></td>
-                                        <td class="contenido-paises-td"><?php echo $valor["apellido2"] ?></td>
-                                        <td class="contenido-paises-td"><?php echo $valor["email"] ?></td>
-                                        <td class="contenido-paises-td"><?php echo $valor["telefono"] ?></td>
-                                        <td class="contenido-paises-td">
-                                            <a href='<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>/modificar/<?php echo $key ?>'>
-                                                <img class="contenido-paises-img"
-                                                     src='../../../ejercicios/BBDD/agendadecontactos/images/modificar.png'
-                                                     title='Modificar contacto'>
-                                            </a>
-                                            <a href='<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>/borrar/<?php echo $key ?>'>
-                                                <img class="contenido-paises-img"
-                                                     src='../../../ejercicios/BBDD/agendadecontactos/images/eliminar.png'
-                                                     title='Eliminar contacto'>
-                                        </td>
-                                    </tr>
-                                <?php endif ?>
-                            <?php endforeach ?>
-                        </table>
+                        <?php if ($header) : ?>
+                            <table class="contenido-paises-tabla">
+                                <tr>
+                                    <th class="contenido-paises-th">Nombre</th>
+                                    <th class="contenido-paises-th">Primer apellido</th>
+                                    <th class="contenido-paises-th">Segundo apellido</th>
+                                    <th class="contenido-paises-th">Email</th>
+                                    <th class="contenido-paises-th">Teléfono</th>
+                                    <th class="contenido-paises-th">Opciones</th>
+                                </tr>
+                                <?php foreach ($_SESSION["contactos"] as $key => $valor) : ?>
+                                    <?php if (preg_match('#^' . strtoupper(trim($_POST['nombreBuscar'])) . '.*#s', strtoupper(trim($valor["nombre"])))) : ?>
+                                        <tr>
+                                            <td class="contenido-paises-td"><?php echo $valor["nombre"] ?></td>
+                                            <td class="contenido-paises-td"><?php echo $valor["apellido1"] ?></td>
+                                            <td class="contenido-paises-td"><?php echo $valor["apellido2"] ?></td>
+                                            <td class="contenido-paises-td"><?php echo $valor["email"] ?></td>
+                                            <td class="contenido-paises-td"><?php echo $valor["telefono"] ?></td>
+                                            <td class="contenido-paises-td">
+                                                <a href='<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>/modificar/<?php echo $key ?>'>
+                                                    <img class="contenido-paises-img"
+                                                         src='../../../ejercicios/BBDD/agendadecontactos/images/modificar.png'
+                                                         title='Modificar contacto'>
+                                                </a>
+                                                <a href='<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>/borrar/<?php echo $key ?>'>
+                                                    <img class="contenido-paises-img"
+                                                         src='../../../ejercicios/BBDD/agendadecontactos/images/eliminar.png'
+                                                         title='Eliminar contacto'>
+                                            </td>
+                                        </tr>
+                                    <?php endif ?>
+                                <?php endforeach ?>
+                            </table>
+                        <?php else: ?>
+                            <h3>No hay resultados</h3>
+                        <?php endif ?>
                     <?php endif ?>
                 </div>
                 <div class="botonera">

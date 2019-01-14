@@ -6,7 +6,7 @@
  * @Description: Define el header general del sitio.
  * @license http://opensource.org/licenses/gpl-license.php  GNU Public License
  */
-echo "<pre>" . print_r($routes, true) . "</pre>"
+//echo "<pre>" . print_r($routes, true) . "</pre>"
 ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

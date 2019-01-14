@@ -9,10 +9,11 @@
 if ($routes[1] === "") {
     include(__DIR__ . "/pages/principal.php");
 }
+
 if ($routes[0] === "" && $routes[1] === "agenda.php") {
     include(__DIR__ . "/pages/principal.php");
 }
-if ($routes[1] !== "" && count($routes) === 2 && $routes[1] !== "agenda.php") {
+if ($routes[1] !== "" && count($routes) === 2 && ($routes[1] !== "agenda.php" && $routes[1] !== "index.php")) {
     include(__DIR__ . "/pages/" . $routes[1] . ".php");
 }
 if (($routes[1] === "proyectos" || $routes[1] === "ejercicios")  && count($routes) === 4 || isset($routes[4]) && isset($routes[5])) {
