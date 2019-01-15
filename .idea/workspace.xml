@@ -5,166 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/css/estilos.css" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b394e9e2-38cd-4705-91e8-089a6bdf2b89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DWES.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DWES.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/browserconfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/elegantfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/elegantfont.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/ElegantIcons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/ElegantIcons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/OFL.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/webfonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/.idea/ejercicios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/.idea/ejercicios.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/agenda.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/agenda.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/app/models/Contacto.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/app/models/Contacto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/social-media.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/social-media.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/pages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/arrays/checkUsability.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/arrays/checkUsability.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/arrays/countries.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/arrays/countries.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/arrays/irregularVerbs.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/arrays/irregularVerbs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/arrays/monthsOfYear.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/arrays/monthsOfYear.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/arrays/notas.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/arrays/notas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/arrays/restaurant.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/arrays/restaurant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/arrays/srccountries.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/arrays/srccountries.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/arrays/srcirregularverbs.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/arrays/srcirregularverbs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/arrays/srcmonths.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/arrays/srcmonths.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/arrays/srcnotas.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/arrays/srcnotas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/arrays/srcrestaurant.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/arrays/srcrestaurant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/arrays/srctablero.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/arrays/srctablero.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/arrays/tableroJuegoBarcos.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/arrays/tableroJuegoBarcos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/calcularEdad.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/calcularEdad.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/calcularMayor.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/calcularMayor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/calendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/calendar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/colorPalette.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/colorPalette.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/diasMes.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/diasMes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/estaciones.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/estaciones.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/holamundo.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/holamundo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/multiplicationTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/multiplicationTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/numbersFromOneToTen.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/numbersFromOneToTen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/pairsAddition.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/pairsAddition.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/srccalculateage.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/srccalculateage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/srccalculatebignumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/srccalculatebignumber.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/srccalendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/srccalendar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/srccolorpalette.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/srccolorpalette.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/srcdaysofmonth.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/srcdaysofmonth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/srcmonthdays.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/srcmonthdays.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/srcnumberfromonetoten.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/srcnumberfromonetoten.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/srcpairsaddition.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/srcpairsaddition.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/srcseassons.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/srcseassons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/srcusertype.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/srcusertype.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/basicos/tipoUsuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/basicos/tipoUsuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/cookies/contadorVisitas.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/cookies/contadorVisitas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/cookies/cookie.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/cookies/cookie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/cookies/includes/srclogincookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/cookies/includes/srclogincookies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/cookies/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/cookies/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/formularios/calendarForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/formularios/calendarForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/formularios/continents1.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/formularios/continents1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/formularios/continents2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/formularios/continents2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/formularios/curriculum.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/formularios/curriculum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/formularios/practicaguiada.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/formularios/practicaguiada.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/formularios/srccalendarform.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/formularios/srccalendarform.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/formularios/sumNumbers.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/formularios/sumNumbers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/funciones/calcularDNI.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/funciones/calcularDNI.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/funciones/contrasennaSegura.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/funciones/contrasennaSegura.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/funciones/obtenerIniciales.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/funciones/obtenerIniciales.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/funciones/sumarDigitos.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/funciones/sumarDigitos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/app/models/Contador.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/app/models/Contador.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/app/models/Perro.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/app/models/Perro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/app/models/Persona.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/app/models/Persona.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/app/models/Preferencia.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/app/models/Preferencia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/app/models/Usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/app/models/Usuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/prueba.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/prueba.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/prueba2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/prueba2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/prueba3.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/prueba3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/plantilla.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/plantilla.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/plantilla/plantilla.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/plantilla/plantilla.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/sesiones/agenda.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/sesiones/agenda.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/sesiones/autentificacion.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/sesiones/autentificacion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/sesiones/buscaminas.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/sesiones/buscaminas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/sesiones/cerrarsession.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/sesiones/cerrarsession.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/sesiones/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/sesiones/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/sesiones/includes/srcbuscaminas.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/sesiones/includes/srcbuscaminas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios/sesiones/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/sesiones/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ElegantIcons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/ElegantIcons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto-Regular-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Regular-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fa-brands-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fa-regular-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fa-solid-900.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/sosa-regular-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/sosa-regular-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/social-media.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/social-media.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/ejercicios.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ejercicios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/principal.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/principal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/proyectos.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/proyectos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/verCodigo.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/verCodigo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/app/models/Perro.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/app/models/Perro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/app/models/Persona.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/app/models/Persona.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/prueba.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/prueba.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/verbosIrregulares/includes/srcirregularverbs.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/verbosIrregulares/includes/srcirregularverbs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/verbosIrregulares/irregularVerbsProject.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/verbosIrregulares/irregularVerbsProject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitio.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b394e9e2-38cd-4705-91e8-089a6bdf2b89" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,26 +27,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/agenda.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="257" column="31" selection-start-line="257" selection-start-column="31" selection-end-line="257" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;e8597545-30df-4d1a-a891-2dbfbbe0a616&gt;/ejercicios/BBDD/agendadecontactos/agenda.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="247" column="83" lean-forward="true" selection-start-line="247" selection-start-column="83" selection-end-line="247" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -495,7 +317,7 @@
       <workItem from="1547477012070" duration="38000" />
       <workItem from="1547477078760" duration="101000" />
       <workItem from="1547477205061" duration="689000" />
-      <workItem from="1547490284754" duration="9057000" />
+      <workItem from="1547490284754" duration="9533000" />
     </task>
     <task id="LOCAL-00001" summary="fixing">
       <created>1546955326561</created>
@@ -515,11 +337,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426405000" />
+    <option name="totallyTimeSpent" value="426881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1440" height="901" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50079745" side_tool="true" weight="0.25416037" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -836,8 +657,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/agenda.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="257" column="31" selection-start-line="257" selection-start-column="31" selection-end-line="257" selection-end-column="31" />
+        <state relative-caret-position="221">
+          <caret line="251" column="49" lean-forward="true" selection-start-line="251" selection-start-column="49" selection-end-line="251" selection-end-column="49" />
         </state>
       </provider>
     </entry>
