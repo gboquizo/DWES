@@ -16,7 +16,6 @@ $table = false;
 $name = "";
 $telephone = "";
 
-
 if (isset($_POST["crearContacto"]) || !isset($routes[4]) || !isset($_POST["modificarContacto"])) {
     if (isset($_POST["crearContacto"])) {
         if (empty($_POST["nombre"])) {

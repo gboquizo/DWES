@@ -18,7 +18,7 @@ include 'srcnotas.php';
                     <div style='text-align: center'>
                         <table style='border: 1px solid; margin: 0 auto'>
                             <tr>
-                                <?php foreach ($tabla as $celda) : ?>
+                                <?php foreach ($table as $celda) : ?>
                                     <th style='border: 	1px solid; font-weight: bold; padding:16px; background-color: crimson;'>
                                         <?php echo $celda ?>
                                     </th>

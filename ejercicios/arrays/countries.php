@@ -17,7 +17,7 @@ include 'srccountries.php';
                     <div class="contenido-paises">
                         <table class="contenido-paises-tabla">
                             <tr>
-                                <?php foreach ($tabla as $celda) : ?>
+                                <?php foreach ($table as $celda) : ?>
                                     <th class="contenido-paises-th">
                                         <?php echo $celda; ?>
                                     </th>

@@ -22,9 +22,6 @@
                         use App\Models\Persona;
                         use App\Models\Contador;
                         use App\Models\Preferencia;
-                       // require_once 'app/models/Perro.php';
-                        //require_once 'app/models/Persona.php';
-
                         Preferencia::init();
                         echo Preferencia::$timezone ."<br>";
                         echo Preferencia::$language."<br>";
@@ -65,7 +62,7 @@
                         <a href="../../ejercicios" class="btnVolver">Volver</a>
                     </div>
                     <div>
-                        <a class="btnVolver" href='../../verCodigo?src=objetos/index'>Ver
+                        <a class="btnVolver" href='../../verCodigo?src=ejercicios/objetos/index.php'>Ver
                             código</a>
                     </div>
                 </div>

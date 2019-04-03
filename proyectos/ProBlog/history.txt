@@ -1,0 +1,1001 @@
+  457  clear
+  458  ls
+  459  cd ..
+  460  l
+  461  cd ..
+  462  ls
+  463  ifconfig
+  464  sudo ip link set ens38 up
+  465  sudo dhclient -v -4
+  466  ifconfig
+  467  clear
+  468  sudo reboot
+  469  ifconfig
+  470  ls
+  471  cd public_html/
+  472  çls
+  473  ls
+  474  cd ejercicios/
+  475  ls
+  476  cd ..
+  477  ls
+  478  cd ..
+  479  ls
+  480  cd ..
+  481  ls
+  482  cd var/www
+  483  ls
+  484  cd guillermo
+  485  ls
+  486  cd public_html/
+  487  ls
+  488  cd proyectos
+  489  ls
+  490  cd mascotas
+  491  ls
+  492  ls app
+  493  ls -la app
+  494  cd models
+  495  cd app
+  496  cd models
+  497  ls
+  498  ls -la
+  499  clear
+  500  cd ..
+  501  ls
+  502  cd app
+  503  cd models
+  504  sudo nano Persona
+  505  ls
+  506  sudo nano Persona.php
+  507  sudo nano Perro.php
+  508  clear
+  509  cd ..
+  510  cd var
+  511  cd www
+  512  cd html
+  513  ls
+  514  cd ..
+  515  cd guillermo
+  516  ls
+  517  cd public_html/
+  518  ls
+  519  cd proyectos
+  520  cd mascotas
+  521  ls
+  522  php composer.phar install
+  523  ls
+  524  php composer.phar install
+  525  clear
+  526  sudo reboot
+  527  ifconfig
+  528  sudo aenmod rewrite
+  529  sudo a2enmod rewrite
+  530  sudo systemctl restart apache2
+  531  sudo nano /etc/apache2//sites-enabled
+  532  cd /etc/apache2/sites-enabled/
+  533  ls
+  534  sudo nano  guillermoboquizosanchez.conf 
+  535  sudo systemctl restart apache2
+  536  cd ..
+  537  ls
+  538  cd mods-enabled/
+  539  ls
+  540  clear
+  541  ifconfig
+  542  sudo reboot
+  543  ifconfig
+  544  sudo reboot
+  545  ifconfig
+  546  sudo reboot
+  547  ifconfig
+  548  sudo reboot
+  549  ifconfig
+  550  sudo ip link set ens38 up
+  551  ifconfig
+  552  sudo dhclient -v -4
+  553  sudo reboot
+  554  ifconfig
+  555  cd /etc
+  556  ls
+  557  cd apache
+  558  cd apache2
+  559  ls
+  560  cd sites-enabled/
+  561  ls
+  562  sudo nano guillermoboquizosanchez.conf 
+  563  clear
+  564  cd ..
+  565  cd sites-available/
+  566  ls
+  567  sudo cp guillermoboquizosanchez.conf guillermoboquizosanchez2.conf 
+  568  ls
+  569  sudo nano guillermoboquizosanchez2.conf 
+  570  sudo a2ensite guillermoboquizosanchez2.conf 
+  571  sudo systemctl reload apache2
+  572  cd ..
+  573  cd sites-enabled/
+  574  ls
+  575  sudo nano etc/hosts
+  576  cd /etc
+  577  ls
+  578  sudo nano host
+  579  sudo nano hosts
+  580  cd apache2
+  581  ls
+  582  sudo nano ports.conf 
+  583  sudo systemctl reload apache2
+  584  cd sites-enabled/
+  585  ls
+  586  sudo nano guillermoboquizosanchez2.conf 
+  587  sudo systemctl reload apache2
+  588  sudo apt-get update
+  589  sudo apt-get upgrade
+  590  clear
+  591  sudo reboot
+  592  ifconfig
+  593  sudo apt-get update
+  594  sudo apt-get upgrade
+  595  sudo apt-get dist-upgrade 
+  596  ls
+  597  ifconfig
+  598  sudo nano /etc/apache2/sites-enabled/000-default
+  599  ls
+  600  cd ..
+  601  ls
+  602  cd ..
+  603  ls
+  604  cd ls
+  605  ls
+  606  cd etc
+  607  ls
+  608  cd apache2
+  609  ls
+  610  cd sites-enabled/
+  611  ls
+  612  sudo nano guillermoboquizosanchez2.conf 
+  613  sudo a2enmod rewrite
+  614  ls
+  615  sudo nano guillermoboquizosanchez2.conf 
+  616  sudo service apache2 restart
+  617  sudo nano guillermoboquizosanchez.conf
+  618  sudo a2dissite guillermoboquizosanchez.conf
+  619  sudo service apache2 restart
+  620  sudo nano guillermoboquizosanchez2.conf 
+  621  sudo apt-get upgrade
+  622  sudo apt-get update
+  623  sudo apt-get dist-upgrade 
+  624  ifconfig
+  625  ls
+  626  cd public_html/
+  627  ls
+  628  cd devsymfony/
+  629  ls
+  630  clear
+  631  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  632  ls
+  633  php -r "if (hash_file('sha384', 'composer-setup.php') === '93b54496392c062774670ac18b134c3b3a95e5a5e5c8f1a9f115f203b75bf9a129d5daa8ba6a13e2cc8a1da0806388a8') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  634  php composer-setup.php
+  635  php -r "unlink('composer-setup.php');"
+  636  ls
+  637  php composer .phar
+  638  php composer.phar
+  639  php composer.phar update
+  640  php composer.phar install
+  641  ls
+  642  composer -v
+  643  php composer.phar
+  644  clear
+  645  ls
+  646  php composer.phar create project-project symfony/framework-standard-edition ./ejercicio1
+  647  php composer.phar create project-project symfony/framework-standard-edition Ej1
+  648  clear
+  649  ls
+  650  wget https://getcomposer.org/installer
+  651  php installer
+  652  ls
+  653  clear
+  654  ls
+  655  composer -v
+  656  clear
+  657  php composer.phar self-update
+  658  ls
+  659  rm installer 
+  660  ñs
+  661  ls
+  662  clear
+  663  ls
+  664  php composer.phar create project-project symfony/framework-standard-edition ./ejercicio1
+  665  clear
+  666  php composer.phar create-project symfony/framework-standard-edition Ejercicio1
+  667  ls
+  668  cd ejercicio1
+  669  cd Ejercicio1
+  670  ls
+  671  cd ..
+  672  sudo rm -rF Ejercicio1/
+  673  sudo rm -Rf Ejercicio1/
+  674  ls
+  675  sudo apt-get install php5-curl
+  676  sudo apt-get install php7-curl
+  677  clear
+  678  php composer.phar create-project symfony/framework-standard-edition Ejercicio1
+  679  php --ini
+  680  sudo apt-get install zip
+  681  ls
+  682  clear
+  683  ls
+  684  sudo rm -Rf Ejercicio1/
+  685  ls
+  686  php composer.phar create-project symfony/framework-standard-edition Ejercicio
+  687  ls
+  688  cd ejercicio
+  689  cd Ejercico
+  690  cd Ejercicio
+  691  ls
+  692  php app/console
+  693  cd app
+  694  ls
+  695  cd ..
+  696  php app/console
+  697  php app/check.php
+  698  ls
+  699  cd Ejercicio
+  700  ls
+  701  php app/check.php
+  702  cd app
+  703  ls
+  704  cd app
+  705  cd ..
+  706  cd app
+  707  ls
+  708  cd Resources/
+  709  ls
+  710  cd views
+  711  ls
+  712  cd ..
+  713  ls
+  714  cd home
+  715  cd ..
+  716  ls
+  717  cd..
+  718  ls
+  719  cd ..
+  720  ls
+  721  cd ..
+  722  ls
+  723  cd guillermo
+  724  cd home
+  725  ls
+  726  cd public_html/
+  727  ls
+  728  cd web
+  729  ls
+  730  cd devsymfony/
+  731  ls
+  732  cd Ejercicio/
+  733  ls
+  734  cd web
+  735  ls
+  736  clear
+  737  ls
+  738  cd ..
+  739  ls
+  740  cd Ejercicio
+  741  ls
+  742  cd app
+  743  cd Resources/
+  744  ls
+  745  cd views/
+  746  ls
+  747  sudo nano base.html.twig
+  748  sudo nano number.html.twig
+  749  cd ..
+  750  ls
+  751  cd src
+  752  ls
+  753  cd AppBundle/
+  754  ls
+  755  cd Controller/
+  756  ls
+  757  cp DefaultController.php LuckyController.php
+  758  ls
+  759  sudo nano LuckyController.php 
+  760  ping www.google.es
+  761  clear
+  762  ifconfig
+  763  sudo apt-get update
+  764  sudo apt-get upgrade
+  765  clear
+  766  ifconfig
+  767  sudo ip link set ens38 up
+  768  history
+  769  sudo dhclient -v -4
+  770  sudo ip link set ens38 up
+  771  sudo dhclient -v -4
+  772  ifconfig
+  773  sudo reboot
+  774  ifconfig
+  775  sudo ip link set ens38 up
+  776  sudo dhclient -v -4
+  777  sudo reboot
+  778  ifconfig
+  779  cd ..
+  780  cd etc
+  781  cd apache2
+  782  cd sites-enabled/
+  783  ls
+  784  sudo nano guillermoboquizosanchez2.conf 
+  785  cd ..
+  786  ls
+  787  cd sites-available/
+  788  ls
+  789  sudo a2dissite guillermoboquizosanchez2.conf 
+  790  sudo service apache2 reload
+  791  ls
+  792  cd ..
+  793  ls
+  794  cd sites-enabled/
+  795  ls
+  796  cd ..
+  797  cd sites-available/
+  798  ls
+  799  sudo a2ensite guillermoboquizosanchez
+  800  sudo a2ensite guillermoboquizosanchez2.conf 
+  801  sudo a2dissite guillermoboquizosanchez
+  802  sudo service apache2 reload
+  803  cd ..
+  804  cd sites-enabled/
+  805  ls
+  806  cd ..
+  807  cd sites-available/
+  808  ls
+  809  sudo nano guillermoboquizosanchez2.conf 
+  810  ls
+  811  sudo nano guillermoboquizosanchez.conf 
+  812  cd ..
+  813  cd sites-available/
+  814  ls
+  815  sudo a2dissite guillermoboquizosanchez2.conf 
+  816  sudo service apache2 reload
+  817  sudo service apache2 restart
+  818  ls
+  819  sudo chmod 777 guillermoboquizosanchez2.conf 
+  820  ls -la
+  821  sudo nano guillermoboquizosanchez2.conf 
+  822  clear
+  823  cd ..
+  824  cd sites-enabled/
+  825  ls
+  826  cd ..
+  827  cd sites-available/
+  828  ls
+  829  sudo a2ensite guillermoboquizosanchez2.conf 
+  830  sudo service apache2 restart
+  831  sudo nano guillermoboquizosanchez2.conf 
+  832  cd ..
+  833  ls
+  834  nmap
+  835  sudo apt install nmap
+  836  nmap
+  837  nmap -p
+  838  nmap -p 8000
+  839  nmap
+  840  clear
+  841  nmap
+  842  nmap -S 192.168.1.132
+  843  nmap -g 8000
+  844  nmap 192.168.1.132 -g 8000
+  845  ls
+  846  sudo nano ports.conf 
+  847  sudo service apache2 restart
+  848  nmap 192.168.1.132 -g 8000
+  849  cd ..
+  850  ls
+  851  cd homre
+  852  cd home
+  853  ls
+  854  cd guillermo
+  855  ls
+  856  cd public_html/
+  857  ls
+  858  cd devsymfony/
+  859  ls
+  860  ls -la
+  861  cd Ejercicio
+  862  ls -la
+  863  cd web
+  864  cd ..
+  865  clear
+  866  composer update
+  867  cd ..
+  868  ls
+  869  composer update
+  870  clear
+  871  ls
+  872  cd Ejercicio/
+  873  ls
+  874  composer dump-autoload
+  875  clear
+  876  apt-get install git-core
+  877  sud apt-get install git-core
+  878  sudo apt-get install git-core
+  879  git
+  880  git config --global
+  881  git config --global user.name "Guillermo Boquizo Sánchez"
+  882  git config --global user.email "guillermoboquizosanchez@gmail.com"
+  883  ls
+  884  cd ..
+  885  wget https://getcomposer.org/installer
+  886  php installer.php
+  887  ls
+  888  php installer
+  889  ls
+  890  php composer.phar self-update
+  891  sudo rm installer
+  892  ks
+  893  ls
+  894  sudo apt update
+  895  apt list --upgradable
+  896  sudo apt upgrade
+  897  sudo apt install curl php-cli php-mbstring git unzip
+  898  curl -sS https://getcomposer.org/installer -o composer-setup.php
+  899  HASH=544e09ee996cdf60ece3804abc52599c22b1f40f4323403c44d44fdfdd586475ca9813a858088ffbc1f233e9b180f061
+  900  php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  901  cd ~
+  902  curl -sS https://getcomposer.org/installer -o composer-setup.php
+  903  HASH=544e09ee996cdf60ece3804abc52599c22b1f40f4323403c44d44fdfdd586475ca9813a858088ffbc1f233e9b180f061
+  904  php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  905  curl -sS https://getcomposer.org/installer -o composer-setup.php
+  906  ls
+  907  HASH=93b54496392c062774670ac18b134c3b3a95e5a5e5c8f1a9f115f203b75bf9a129d5daa8ba6a13e2cc8a1da0806388a8
+  908  php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  909  sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+  910  composer
+  911  composer update
+  912  sudo composer self-update
+  913  ls
+  914  cd public_html/
+  915  ls
+  916  cd devsymfony/
+  917  ls
+  918  prueba
+  919  mkdir prueba
+  920  ls
+  921  cd prueba
+  922  php composer.phar create-project symfony/framework-standard-edition
+  923  cd ..
+  924  php composer.phar create-project symfony/framework-standard-edition prueba
+  925  ls
+  926  ls -la
+  927  rm prueba
+  928  ls
+  929  php composer.phar create-project symfony/framework-standard-edition./prueba
+  930  php composer.phar create-project symfony/framework-standard-edition/prueba
+  931  sudo rm -Rf prueba
+  932  ls
+  933  php composer.phar create-project symfony/framework-standard-edition/prueba
+  934  clear
+  935  php composer.phar create-project symfony/framework-standard-edition/prueba
+  936  clear
+  937  php composer.phar create-project symfony/framework-standard-edition/prueba
+  938  sudo chown -R  [yourgroup]  /home/[youruser]/.composer/cache/repo/https---packagist.org/
+  939  sudo chown -R  guillermo  /home/guillermo/.composer/cache/repo/https---packagist.org/
+  940  whoami
+  941  cat/etc/group
+  942  cat /etc/group
+  943  groups guillermo
+  944  $ sudo chown -R $USER:$USER $HOME/.composer
+  945  $ sudo chown -R $USER $HOME/.composer
+  946  sudo chown -R $USER $HOME/.composer
+  947  php composer.phar create-project symfony/framework-standard-edition/prueba
+  948  clear
+  949  php app/console
+  950  php composer.phar create-project symfony/framework-standard-edition/prueba1
+  951  ls
+  952  cd Prueba
+  953  mkdir prueba
+  954  ls
+  955  php composer.phar create-project symfony/framework-standard-edition/prueba1
+  956  php composer.phar create-project symfony/framework-standard-edition/prueba
+  957  php app/check
+  958  sudo mkdir -p /usr/local/bin
+  959  sudo curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony
+  960  sudo chmod a+x /usr/local/bin/symfony
+  961  symfony new my_project_name 3.4
+  962  ls
+  963  cd my_project_name/
+  964  ls
+  965  cd --
+  966  cd ..
+  967  ls
+  968  cd guillermo
+  969  ls
+  970  cd public_html/
+  971  ls
+  972  cd devsymfony/
+  973  ls
+  974  sudo rm -Rf my_project_name/
+  975  sudo rm -Rf prueba
+  976  ls
+  977  symfony new Projecto1 3.4
+  978  php bin/console server:start
+  979  ls
+  980  cd Projecto1/
+  981  ls
+  982  cd app
+  983  cd config
+  984  sudo nano parameters.yml
+  985  php bin/console server:start
+  986  cd ..
+  987  ls
+  988  server start
+  989  php bin/console server:start
+  990  ] Warning: pcntl_fork() has been disabled for security reasons
+  991  composer create-project symfony/framework-standard-edition my_project_name
+  992  ls
+  993  cd ..
+  994  ls
+  995  cd Ejercicio/
+  996  ls
+  997  cd ..
+  998  composer create-project symfony/framework-standard-edition Projecto1
+  999  cd Projecto1/
+ 1000  ls
+ 1001  cd ..
+ 1002  sudo rm -Rf Projecto1/
+ 1003  ls
+ 1004  composer create-project symfony/framework-standard-edition Projecto1
+ 1005  ls
+ 1006  cd Projecto1/
+ 1007  ls
+ 1008  composer require --dev symfony/web-server-bundle
+ 1009  clear
+ 1010  composer require --dev symfony/web-server-bundle
+ 1011  clear
+ 1012  php bin/console server:start
+ 1013  php bin/console server:start 192.168.1.132:8000
+ 1014  clear
+ 1015  ls -la
+ 1016  cd var
+ 1017  ls
+ 1018  sudo chmod 777 cache/
+ 1019  ls
+ 1020  sudo chmod 777 logs/
+ 1021  sudo chmod sessions logs/
+ 1022  sudo chmod sessions/
+ 1023  sudo chmod 777  sessions/
+ 1024  ls
+ 1025  cd logs
+ 1026  ls
+ 1027  ls -la
+ 1028  cd ..
+ 1029  sudo rm -fr var/cache/*
+ 1030  sudo rm -fr var/logs/*
+ 1031  php bin/console server:run
+ 1032  cd ..
+ 1033  ls
+ 1034  cd etc
+ 1035  cd apache2
+ 1036  ls
+ 1037  cd ports
+ 1038  sudo nano ports.conf 
+ 1039  sudo service apache2 reload
+ 1040  php bin/console server:run
+ 1041  cd ..
+ 1042  cd home
+ 1043  ls
+ 1044  cd guillermo/
+ 1045  cd public_html/
+ 1046  cd devsymfony/
+ 1047  cd ÇP
+ 1048  cd Projecto1/
+ 1049  ls
+ 1050  php bin/console server:run
+ 1051  cd ..
+ 1052  ls
+ 1053  cd etc
+ 1054  cd apache2/
+ 1055  ls
+ 1056  sudo nano ports.conf 
+ 1057  sudo service apache2 reload
+ 1058  cd sites-available/
+ 1059  ls
+ 1060  sudo a2dissite guillermoboquizosanchez2.conf 
+ 1061  sudo service apache2 reload
+ 1062  sudo nano guillermoboquizosanchez2.conf 
+ 1063  sudo a2ensite guillermoboquizosanchez2.conf 
+ 1064  sudo service apache2 reload
+ 1065  cd ..
+ 1066  cd guillermo/
+ 1067  cd public_html/
+ 1068  cd devsymfony/
+ 1069  cd Projecto1/
+ 1070  ls
+ 1071  php bin/console server:run
+ 1072  cd etc
+ 1073  cd ~etc
+ 1074  cd .etc
+ 1075  cd ./etc
+ 1076  cd ..
+ 1077  cd apache2
+ 1078  sudo nano ports.conf 
+ 1079  sudo service apache2 reload
+ 1080  clear
+ 1081  cd ..
+ 1082  cd .
+ 1083  ls
+ 1084  cd home
+ 1085  cd guillermo/
+ 1086  cd public_html/
+ 1087  cd devsymfony/
+ 1088  cd Projecto1/
+ 1089  ls
+ 1090  ls -la
+ 1091  HTTPDUSER=$(ps axo user,comm | grep -E '[a]pache|[h]ttpd|[_]www|[w]ww-data|[n]ginx' | grep -v root | head -1 | cut -d\  -f1)
+ 1092  sudo setfacl -dR -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX var
+ 1093  sudo setfacl -R -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX var
+ 1094  ls -la
+ 1095  clear
+ 1096  php bin/console debug:router --env=prod
+ 1097  /lucky/number
+ 1098  php bin/console cache:clear --env PROD
+ 1099  app/config/routing.yml
+ 1100  php app/console cache:clear --env=prod
+ 1101  clear
+ 1102  php bin/console server:run
+ 1103  HTTPDUSER=$(ps axo user,comm | grep -E '[a]pache|[h]ttpd|[_]www|[w]ww-data|[n]ginx' | grep -v root | head -1 | cut -d\  -f1)
+ 1104  sudo setfacl -dR -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX var
+ 1105  sudo setfacl -R -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX var
+ 1106  php bin/console cache:clear --env=prod
+ 1107  php bin/console cache:clear --env=dev
+ 1108  cd ..
+ 1109  ls
+ 1110  sudo rm -Rf Ejercicio/
+ 1111  ls
+ 1112  composer create-project symfony/framework-standard-edition Proyecto1
+ 1113  cd Proyecto1/
+ 1114  ls
+ 1115  sudo chmod 777 cache/
+ 1116  ls
+ 1117  HTTPDUSER=$(ps axo user,comm | grep -E '[a]pache|[h]ttpd|[_]www|[w]ww-data|[n]ginx' | grep -v root | head -1 | cut -d\  -f1)
+ 1118  sudo setfacl -dR -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX var
+ 1119  sudo setfacl -R -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX var
+ 1120  php app/console cache:clear --env=dev
+ 1121  php bin/console cache:clear --env=prod
+ 1122  php bin/console cache:clear --env=dev
+ 1123  clear
+ 1124  php bin/console cache:clear --env=dev
+ 1125  php bin/console cache:clear --env=prod
+ 1126  sudo ip link set ens3~ up
+ 1127  sudo ip link set ens33 up
+ 1128  sudo dhclient -v -4
+ 1129  ifconfig
+ 1130  ping www.google.es
+ 1131  sudo ip link set ens38 down
+ 1132  ifconfig
+ 1133  cd ~/etc
+ 1134  cd ..
+ 1135  ls
+ 1136  cd etc
+ 1137  cd apache2
+ 1138  ls
+ 1139  cd sites-enabled/
+ 1140  ls
+ 1141  sudo nano guillermoboquizosanchez2.conf 
+ 1142  ls
+ 1143  ifconfig
+ 1144  sudo nano guillermoboquizosanchez2.conf 
+ 1145  clear
+ 1146  cd ..
+ 1147  cd home
+ 1148  cd guillermo/
+ 1149  s
+ 1150  ls
+ 1151  cd public_html/
+ 1152  ls
+ 1153  cd devsymfony/
+ 1154  ls
+ 1155  sudo rm -Rf Projecto1/
+ 1156  ls
+ 1157  clear
+ 1158  cd ..
+ 1159  cd etc
+ 1160  cd apache2
+ 1161  ls
+ 1162  cd ..
+ 1163  ls
+ 1164  cd php
+ 1165  ls
+ 1166  cd 7.3
+ 1167  php -v
+ 1168  cd ..
+ 1169  cd 7.2/
+ 1170  ls
+ 1171  cd apache2/
+ 1172  ls
+ 1173  sudo nano php.ini
+ 1174  clear
+ 1175  cd ..
+ 1176  cd home
+ 1177  cd ..
+ 1178  cd home
+ 1179  cd guillermo/
+ 1180  cd public_html/
+ 1181  ls
+ 1182  cd devsymfony/
+ 1183  ls
+ 1184  cd Proyecto1/
+ 1185  ls
+ 1186  cd ..
+ 1187  composer create-project symfony/framework-standard-edition Proyecto2
+ 1188  ls
+ 1189  cd Proyecto
+ 1190  cd Proyecto2
+ 1191  ls
+ 1192  clear
+ 1193  HTTPDUSER=$(ps axo user,comm | grep -E '[a]pache|[h]ttpd|[_]www|[w]ww-data|[n]ginx' | grep -v root | head -1 | cut -d\  -f1)
+ 1194  sudo setfacl -dR -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX var
+ 1195  sudo setfacl -R -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX var
+ 1196  php app/console cache:clear --env=d
+ 1197  php bin/console cache:clear --env=dev
+ 1198  php app/console cache:clear --env=prod
+ 1199  php bin/console cache:clear --env=prod
+ 1200  clear
+ 1201  php bin/console cache:clear --env=dev
+ 1202  php bin/console cache:clear --env=prod
+ 1203  php bin/console cache:clear --env=dev
+ 1204  php bin/console cache:clear --env=prod
+ 1205  saludo:
+ 1206  php bin/console cache:clear --env=dev
+ 1207  php bin/console cache:clear --env=prod
+ 1208  php bin/console cache:clear --env=dev
+ 1209  clear
+ 1210  ifconfig
+ 1211  clear
+ 1212  ifconfig
+ 1213  cd ..
+ 1214  cd etc
+ 1215  cd apache
+ 1216  cd apache2
+ 1217  ls
+ 1218  cd sites-enabled/
+ 1219  ls
+ 1220  sudo nano guillermoboquizosanchez2.conf
+ 1221  clear
+ 1222  ifconfig
+ 1223  ls
+ 1224  cd public_html/
+ 1225  cd devsymfony/
+ 1226  cd Proyecto3/
+ 1227  ls
+ 1228  php bin/console cache:clear --env=dev
+ 1229  php bin/console cache:clear --env=prod
+ 1230  php bin/console cache:clear --env=dev
+ 1231  php bin/console cache:clear --env=prod
+ 1232  php bin/console cache:clear --env=dev
+ 1233  php bin/console cache:clear --env=prod
+ 1234  php bin/console cache:clear --env=dev
+ 1235  php bin/console cache:clear --env=prod
+ 1236  php bin/console cache:clear --env=d
+ 1237  php bin/console cache:clear --env=dev
+ 1238  php bin/console cache:clear --env=prod
+ 1239  php bin/console cache:clear --env=dev
+ 1240  php bin/console cache:clear --env=prod
+ 1241  php bin/console cache:clear --env=dev
+ 1242  php bin/console cache:clear --env=prod
+ 1243  php bin/console cache:clear --env=dev
+ 1244  php bin/console cache:clear --env=prod
+ 1245  php bin/console cache:clear --env=dev
+ 1246  php bin/console cache:clear --env=prod
+ 1247  php bin/console cache:clear --env=dev
+ 1248  php bin/console cache:clear --env=prod
+ 1249  php bin/console cache:clear --env=dev
+ 1250  php bin/console cache:clear --env=prod
+ 1251  php bin/console cache:clear --env=dev
+ 1252  php bin/console cache:clear --env=prod
+ 1253  php bin/console cache:clear --env=dev
+ 1254  php bin/console cache:clear --env=prod
+ 1255  clear
+ 1256  cd ..
+ 1257  composer create-project symfony/framework-standard-edition Proyecto4
+ 1258  cd Proyecto4/
+ 1259  ls
+ 1260  HTTPDUSER=$(ps axo user,comm | grep -E '[a]pache|[h]ttpd|[_]www|[w]ww-data|[n]ginx' | grep -v root | head -1 | cut -d\  -f1)
+ 1261  clear
+ 1262  php bin/console cache:clear --env=dev
+ 1263  php bin/console cache:clear --env=prod
+ 1264  HTTPDUSER=$(ps axo user,comm | grep -E '[a]pache|[h]ttpd|[_]www|[w]ww-data|[n]ginx' | grep -v root | head -1 | cut -d\  -f1)
+ 1265  sudo setfacl -dR -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX var
+ 1266  sudo setfacl -R -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX var
+ 1267  php bin/console cache:clear --env=dev
+ 1268  php bin/console cache:clear --env=prod
+ 1269  ifconfig
+ 1270  clear
+ 1271  ifconfig
+ 1272  composer create-project symfony/framework-standard-edition ./ProBlog
+ 1273  ls
+ 1274  sudo rm -Rf ProBlog/
+ 1275  ls
+ 1276  cd public_html/
+ 1277  ls
+ 1278  cd devsymfony/
+ 1279  ls
+ 1280  composer create-project symfony/framework-standard-edition ./ProBlog
+ 1281  ls
+ 1282  cd Pro
+ 1283  cd ProBlog/
+ 1284  ls
+ 1285  HTTPDUSER=$(ps axo user,comm | grep -E '[a]pache|[h]ttpd|[_]www|[w]ww-data|[n]ginx' | grep -v root | head -1 | cut -d\  -f1)
+ 1286  sudo setfacl -dR -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX var
+ 1287  sudo setfacl -R -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX var
+ 1288  ls
+ 1289  ls -la
+ 1290  php bin/console cache:clear --env=dev
+ 1291  php bin/console cache:clear --env=prod
+ 1292  clear
+ 1293  php bin/console generate:bundle --namespace=Blogger/BlogBundle
+ 1294  php bin/console cache:clear --env=dev
+ 1295  cd public_html/
+ 1296  cd devsymfony/
+ 1297  ls
+ 1298  cd ProBlog/
+ 1299  ls
+ 1300  php bin/console cache:clear --env=dev
+ 1301  php bin/console cache:clear --env=prod
+ 1302  cd public_html/
+ 1303  cd devsymfony/
+ 1304  cd ProBlog/
+ 1305  ls
+ 1306  php bin/console cache:clear --env=dev
+ 1307  php bin/console cache:clear --env=prod
+ 1308  php bin/console cache:clear --env=dev
+ 1309  php bin/console cache:clear --env=prod
+ 1310  php bin/console generate:bundle --namespace=Blogger/BlogBundle
+ 1311  ls
+ 1312  cd public_html/
+ 1313  ls
+ 1314  cd devsymfony/
+ 1315  ls
+ 1316  cd Pro
+ 1317  cd ProBlog/
+ 1318  ls
+ 1319  php bin/console generate:bundle --namespace=Blogger/BlogBundle
+ 1320  php bin/console cache:clear --env=prod
+ 1321  cd public_html/
+ 1322  cd devsymfony/
+ 1323  cd ProBlog/
+ 1324  php bin/console cache:clear --env=prod
+ 1325  php bin/console cache:clear --env=dev
+ 1326  sudo reboot
+ 1327  php bin/console cache:clear --env=dev
+ 1328  cd public_html/
+ 1329  cd devsymfony/
+ 1330  cd ProBlog/
+ 1331  ls
+ 1332  php bin/console cache:clear --env=dev
+ 1333  php bin/console cache:clear --env=prod
+ 1334  sudo apt-get update
+ 1335  sudo apt-get upgrade
+ 1336  clear
+ 1337  ifconfig
+ 1338  ifconfi
+ 1339  ifconfig
+ 1340  sudo reboot
+ 1341  clear
+ 1342  ifconfig
+ 1343  clear
+ 1344  php bin/console debug:container
+ 1345  cd public_html/
+ 1346  cd devsymfony/
+ 1347  cd ProBlog/
+ 1348  php bin/console debug:container
+ 1349  cd public_html/
+ 1350  cd devsymfony/
+ 1351  cd ProBlog/
+ 1352  php bin/console cache:clear --env=dev
+ 1353  clear
+ 1354  cd public_html/
+ 1355  cd ProBlog/
+ 1356  ls
+ 1357  cd devsymfony/
+ 1358  ls
+ 1359  cd ProBlog/
+ 1360  ls
+ 1361  clear
+ 1362  php bin/console doctrine:database:create
+ 1363  clear
+ 1364  php bin/console doctrine:database:create
+ 1365  ls
+ 1366  clear
+ 1367  mysql -u guillermo -p
+ 1368  mysql -u root -p
+ 1369  sudo mysql -u root -p
+ 1370  mysql -u root -p
+ 1371  php bin/console doctrine:database:create
+ 1372  clear
+ 1373  php bin/console doctrine:schema:create
+ 1374  php bin/console doctrine:generate:entities Blogger
+ 1375  clear
+ 1376  ls
+ 1377  cd ..
+ 1378  ls
+ 1379  cd ProBlog/
+ 1380  ls
+ 1381  php ../composer.phar require doctrine/doctrine-fixtures-bundle
+ 1382  clear
+ 1383  php ../composer.phar require doctrine/doctrine-fixtures-bundle
+ 1384  clear
+ 1385  sudo apt-get update
+ 1386  sudo apt-get upgrade
+ 1387  clear
+ 1388  ifconfig
+ 1389  clear
+ 1390  ls
+ 1391  cd public_html/
+ 1392  ls
+ 1393  cd devsymfony/
+ 1394  ls
+ 1395  cd ProBlog/
+ 1396  ls
+ 1397  php ../composer.phar require doctrine/doctrine-fixtures-bundle
+ 1398  clear
+ 1399  php ../composer.phar require doctrine/doctrine-migrations-bundle
+ 1400  clear
+ 1401  php bin/console doctrine:fixtures:load
+ 1402  php ../composer.phar dump-autoload
+ 1403  php bin/console doctrine:fixtures:load
+ 1404  php ../composer.phar update
+ 1405  php bin/console doctrine:fixtures:load
+ 1406  php bin/console cache:clear --env=dev
+ 1407  php ../composer.phar dump-autoload
+ 1408  php bin/console cache:clear --env=prod
+ 1409  php bin/console cache:clear --env=dev
+ 1410  php ../composer.phar dump-autoload
+ 1411  php bin/console cache:clear --env=dev
+ 1412  clear
+ 1413  exit
+ 1414  ifconfig
+ 1415  clear
+ 1416  php bin/console cache:clear --env=dev
+ 1417  cd public_html/
+ 1418  cd devsymfony/
+ 1419  cd ProBlog/
+ 1420  ls
+ 1421  php bin/console cache:clear --env=dev
+ 1422  php bin/console debug:container form.factory
+ 1423  php bin/console cache:clear --env=dev
+ 1424  php bin/console cache:clear --env=prod
+ 1425  clear
+ 1426  cd public_html/
+ 1427  cd devsymfony/
+ 1428  cd ProBlog/
+ 1429  ls
+ 1430  php bin/console doctrine:generate:entities Blogger
+ 1431  cd public_html/
+ 1432  cd devsymfony/
+ 1433  cd ProBlog/
+ 1434  ls
+ 1435  clear
+ 1436  php bin/console cache:clear --env=dev
+ 1437  php bin/console doctrine:generate:entities Blogger
+ 1438  php bin/console cache:clear --env=dev
+ 1439  clear
+ 1440  cd public_html/
+ 1441  cd devsymfony/
+ 1442  cd ProBlog/
+ 1443  ls
+ 1444  clear
+ 1445  php bin/console cache:clear --env=dev
+ 1446  cd public_html/
+ 1447  cd devsymfony/
+ 1448  cd ProBlog/
+ 1449  ls
+ 1450  php bin/console cache:clear --env=dev
+ 1451  php bin/console doctrine:generate:entities Blogger
+ 1452  php bin/console doctrine:schema:update --force
+ 1453  php bin/console cache:clear --env=dev
+ 1454  clear
+ 1455  history
+ extra: php bin/console generate:doctrine:form AcmeBlogBundle:Post
+ 1456  history > history.txt

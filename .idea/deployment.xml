@@ -59,6 +59,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="Servidor DWES Clase Local">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="Servidor DWES Clase Windows 10">
         <serverdata>
           <mappings>

@@ -11,49 +11,39 @@
     <h2>Lista de proyectos</h2>
     <article class='articulo'>
         <div class="contenedor-proyectos">
+            <a href="maquetacion/index.php" target="_blank" class="contenidoCaja">
+                <div class="caja red">
+                    <h3 class="cool-link">Maquetación básica</h3>
+                </div>
+            </a>
             <a href="verbosIrregulares/irregularVerbsProject" class="contenidoCaja">
                 <div class="caja blue">
                     <h3 class="cool-link">Proyecto verbos irregulares en inglés</h3>
                 </div>
             </a>
-            <a href="mascotas/index" class="contenidoCaja">
-                <div class="caja red">
-                    <h3 class="cool-link">Mascotas</h3>
-                </div>
-            </a>
-            <a class="contenidoCaja">
-                <div class="caja gray">
-                    <h3 class="cool-link">Proyecto 3</h3>
-                </div>
-            </a>
-            <a class="contenidoCaja">
-                <div class="caja green">
-                    <h3 class="cool-link">Proyecto 4</h3>
-                </div>
-            </a>
-            <a class="contenidoCaja">
-                <div class="caja violet">
-                    <h3 class="cool-link">Proyecto 5</h3>
-                </div>
-            </a>
-            <a class="contenidoCaja">
+            <a href="Ajax/index.php" target="_blank" class="contenidoCaja">
                 <div class="caja orange">
-                    <h3 class="cool-link">Proyecto 6</h3>
+                    <h3 class="cool-link">Buscador de sugerencias con Ajax</h3>
                 </div>
             </a>
-            <a class="contenidoCaja">
-                <div class="caja pink">
-                    <h3 class="cool-link">Proyecto 7</h3>
+            <a href="guiasturisticas/index.php" target="_blank" class="contenidoCaja">
+                <div class="caja gray">
+                    <h3 class="cool-link">Guías turísticas</h3>
                 </div>
             </a>
-            <a class="contenidoCaja">
-                <div class="caja dark-blue">
-                    <h3 class="cool-link">Proyecto 8</h3>
+            <a href="ProBlog/web/app.php" target="_blank" class="contenidoCaja">
+                <div class="caja violet">
+                    <h3 class="cool-link">ProBlog</h3>
                 </div>
             </a>
-            <a class="contenidoCaja">
-                <div class="caja aquamarine">
-                    <h3 class="cool-link">Proyecto 9</h3>
+            <a href="Jobeet/web/job/" target="_blank" class="contenidoCaja">
+                <div class="caja green">
+                    <h3 class="cool-link">Jobeet</h3>
+                </div>
+            </a>
+            <a href="seriestv/index.php" class="contenidoCaja">
+                <div class="caja lilac">
+                    <h3 class="cool-link">Series de televisión</h3>
                 </div>
             </a>
         </div>

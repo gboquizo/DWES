@@ -18,7 +18,7 @@ include 'srcrestaurant.php';
                         <?php $contador = 0; ?>
                         <table class="contenido-restaurante-tabla">
                             <tr>
-                                <?php foreach ($tabla as $celda) : ?>
+                                <?php foreach ($table as $celda) : ?>
                                     <th class="restaurante-th">
                                         <?php echo $celda; ?>
                                     </th>

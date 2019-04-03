@@ -24,5 +24,5 @@ $alumnos = [
     ["nombre" => "José María", "apellido1" => "Romero", "apellido2" => "Ruíz", "1ev" => "10", "2ev" => "10", "3ev" => "10", "final" => "10"],
     ["nombre" => "Rafael", "apellido1" => "Sojo", "apellido2" => "Ruíz", "1ev" => "10", "2ev" => "10", "3ev" => "10", "final" => "10"],
 ];
-$tabla = ['Nombre', 'Primer apellido', 'Segundo apellido', '1ª evaluación', '2ª evaluación', '3ª evaluación', 'Final'];
+$table = ['Nombre', 'Primer apellido', 'Segundo apellido', '1ª evaluación', '2ª evaluación', '3ª evaluación', 'Final'];
 ?>

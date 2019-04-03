@@ -8,34 +8,40 @@
  */
 session_start();
 
+require_once "clases/Database.php";
+
+
+$conexion = new Database('2daw1819_bosagu', 'usuario', '2daw1819_bosagu');
+
 $nameError = "";
-$telephoneError = "";
 $firstSurnameError = "";
 $secondSurnameError = "";
 $emailError = "";
+$telephoneError = "";
+
 $flagNameError = false;
 $flagFirstSurnameError = false;
 $flagSecondSurnameError = false;
 $flagEmailError = false;
 $flagTelephoneError = false;
+
 $table = false;
+
 $name = "";
-$telephone = "";
 $firstSurname = "";
 $secondSurname = "";
 $email = "";
+$telephone = "";
 
 
-if (isset($_POST["crearContacto"]) || isset($routes[5])|| isset($_POST["modificarContacto"])) {
+if (isset($_POST["crearContacto"]) || isset($routes[5]) || isset($_POST["modificarContacto"])) {
     if (isset($_POST["crearContacto"])) {
-
         if (empty($_POST["nombre"])) {
             $nameError = "* Introduzca un nombre<br>";
             $flagNameError = true;
-        } else {/**/
+        } else {
             $name = $_POST["nombre"];
         }
-
         if (empty($_POST["apellido1"])) {
             $firstSurnameError = "* Introduzca el primer apellido<br>";
             $flagFirstSurnameError = true;
@@ -50,6 +56,12 @@ if (isset($_POST["crearContacto"]) || isset($routes[5])|| isset($_POST["modifica
             $secondSurname = $_POST["apellido2"];
         }
 
+        if (empty($_POST["telefono"])) {
+            $telephoneError = "* Introduzca un teléfono<br>";
+            $flagTelephoneError = true;
+        } else {
+            $telephone = $_POST["telefono"];
+        }
         if (empty($_POST["email"])) {
             $emailError = "* Introduzca el email<br>";
             $flagEmailError = true;
@@ -57,47 +69,52 @@ if (isset($_POST["crearContacto"]) || isset($routes[5])|| isset($_POST["modifica
             $email = $_POST["email"];
         }
 
-        if (empty($_POST["telefono"])) {
-            $telephoneError = "* Introduzca un teléfono<br>";
-            $flagTelephoneError = true;
-        } else {
-            $telephone = $_POST["telefono"];
-        }
+        if (!empty($_POST["nombre"]) && !empty($_POST["apellido1"]) && !empty($_POST["apellido2"]) && !empty($_POST["email"]) && !empty($_POST["telefono"])) {
+            $conexion->query('INSERT INTO Ag_contactos (nombre, apellido1, apellido2, email,telefono, idUsuario) VALUES (:nombre,:apellido1,:apellido2,:email, :telefono, :idUsuario)');
+            $conexion->bind(":nombre", $_POST["nombre"]);
+            $conexion->bind(":apellido1", $_POST["apellido1"]);
+            $conexion->bind(":apellido2", $_POST["apellido2"]);
+            $conexion->bind(":email", $_POST["email"]);
+            $conexion->bind(":telefono", $_POST["telefono"]);
+            $conexion->bind(":idUsuario", $_SESSION["usuario"]["id"]);
+            $conexion->execute();
 
-        if (!empty($_POST["nombre"])
-            && !empty($_POST["apellido1"])
-            && !empty($_POST["apellido2"])
-            && !empty($_POST["email"])
-            && !empty($_POST["telefono"])) {
-            $_SESSION["contactos"][] = array(
-                "nombre" => $_POST["nombre"],
-                "apellido1" => $_POST["apellido1"],
-                "apellido2" => $_POST["apellido2"],
-                "email" => $_POST["email"],
-                "telefono" => $_POST["telefono"]);
             $table = true;
         }
     }
 
+
     if (isset($routes[5]) && $routes[5] === "borrar" && isset($routes[6])) {
-        unset($_SESSION["contactos"][$routes[6]]);
+        $conexion->query('DELETE FROM Ag_contactos WHERE id=:id');
+        $conexion->bind(":id", $routes[6]);
+        $conexion->execute();
         header('Location: http://cpd.iesgrancapitan.org:9119/~qbsagu/ejercicios/BBDD/agendadecontactos/agenda');
     }
 
     if (isset($routes[5]) && $routes[5] === "modificar" && isset($routes[6])) {
-        $name = $_SESSION["contactos"][$routes[6]]["nombre"];
-        $firstSurname = $_SESSION["contactos"][$routes[6]]["apellido1"];
-        $secondSurname = $_SESSION["contactos"][$routes[6]]["apellido2"];
-        $email = $_SESSION["contactos"][$routes[6]]["email"];
-        $telephone = $_SESSION["contactos"][$routes[6]]["telefono"];
+        $conexion->query('SELECT nombre,apellido1, apellido2, email, telefono FROM Ag_contactos WHERE id=:id');
+        $conexion->bind(":id", $routes[6]);
+        $conexion->execute();
+        $contacto = $conexion->obtenerFila();
+
+        $name = $contacto["nombre"];
+        $firstSurname = $contacto["apellido1"];
+        $secondSurname = $contacto["apellido2"];
+        $email = $contacto["email"];
+        $telephone = $contacto["telefono"];
     }
 
     if (isset($_POST["modificarContacto"])) {
-        $_SESSION['contactos'][$_POST["contactoModificado"]]['nombre'] = $_POST['nombre'];
-        $_SESSION['contactos'][$_POST["contactoModificado"]]['apellido1'] = $_POST['apellido1'];
-        $_SESSION['contactos'][$_POST["contactoModificado"]]['apellido2'] = $_POST['apellido2'];
-        $_SESSION['contactos'][$_POST["contactoModificado"]]['email'] = $_POST['email'];
-        $_SESSION['contactos'][$_POST["contactoModificado"]]['telefono'] = $_POST['telefono'];
+        $conexion->query('UPDATE Ag_contactos SET nombre=:nombre,apellido1=:apellido1,apellido2=:apellido2,email=:email, telefono=:telefono WHERE id=:id');
+        $conexion->bind(":id", $_POST["contactoModificado"]);
+        $conexion->bind(":nombre", $_POST['nombre']);
+        $conexion->bind(":apellido1", $_POST['apellido1']);
+        $conexion->bind(":apellido2", $_POST['apellido2']);
+        $conexion->bind(":email", $_POST['email']);
+        $conexion->bind(":telefono", $_POST['telefono']);
+        $conexion->execute();
+
+
     }
 }
 
@@ -108,33 +125,39 @@ if (isset($_POST["buscar"])) {
 if (isset($_POST["cerrarSesion"])) {
     session_unset();
     session_destroy();
+    session_start();
+    session_regenerate_id(true);
+    header("Location:testAgenda");
 }
 
 $header = false;
-if (isset($_POST["buscar"]) && !empty($_SESSION["contactos"])) {
-    foreach ($_SESSION["contactos"] as $key => $valor) {
+if (isset($_POST["buscar"]) && !empty($_SESSION["usuario"])) {
+    $conexion->query('SELECT nombre, apellido1, apellido2, email, telefono, id FROM Ag_contactos WHERE idUsuario=:idUsuario');
+    $conexion->bind(":idUsuario", $_SESSION["usuario"]["id"]);
+    $conexion->execute();
+    foreach ($conexion->obtenerTablaAsociativa() as $key => $valor) {
         if (preg_match('#^' . strtoupper(trim($_POST['nombreBuscar'])) . '.*#s', strtoupper(trim($valor["nombre"])))) {
             $header = true;
+        }
+        else {
+            $header = false;
         }
     }
 }
 
 ?>
+
 <section class='principal'>
     <h2>Agenda de contactos con BBDD</h2>
     <article class='articulo'>
         <div class="contenedor-ejercicios">
             <div class="contenidoEjercicio">
                 <div class="ejercicio violet">
-
                     <!--Si no está establecida crear, ni modificar, ni hay errores-->
-                    <?php if (!isset($_POST["create"]) && !isset($routes[5])
-                        && !$flagNameError
-                        && !$flagFirstSurnameError
-                        && !$flagSecondSurnameError
-                        && !$flagEmailError
-                        && !$flagTelephoneError) : ?>
+                    <?php if (!isset($_POST["create"]) && !isset($routes[5]) && !$flagNameError && !$flagFirstSurnameError && !$flagSecondSurnameError && !$flagEmailError && !$flagTelephoneError) : ?>
                         <?php $table = true ?>
+                        <h3>Bienvenido <?php echo $_SESSION["usuario"]["nombre"] ?></h3>
+                        <br>
                         <form action="<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>" method="post">
                             Contacto a buscar:
                             <input type="text" name="nombreBuscar">
@@ -143,29 +166,23 @@ if (isset($_POST["buscar"]) && !empty($_SESSION["contactos"])) {
                             <input type="submit" name="cerrarSesion" value="Cerrar sesión">
                         </form>
                     <?php endif ?>
-
-                    <?php if (isset($_POST["create"]) || isset($routes[5]) && $routes[5] === "modificar"
-                        || $flagNameError
-                        || $flagFirstSurnameError
-                        || $flagSecondSurnameError
-                        || $flagEmailError
-                        || $flagTelephoneError) : ?>
+                    <?php if (isset($_POST["create"]) || isset($routes[5]) && $routes[5] === "modificar" || $flagNameError || $flagFirstSurnameError || $flagSecondSurnameError || $flagEmailError || $flagTelephoneError) : ?>
                         <form action="http://cpd.iesgrancapitan.org:9119/~qbsagu/ejercicios/BBDD/agendadecontactos/agenda"
                               method="post">
-                            <label for="nombre">Nombre:</label>
+                            <label for="nombre">Nombre:</label><br>
                             <input type="text" id="nombre" name="nombre" value="<?php echo $name ?>"><span
                                     class="error"><?php echo $nameError ?></span><br><br>
-                            <label for="apellido1">Primer apellido:</label>
+                            <label for="apellido1">Primer apellido:</label><br>
                             <input type="text" id="apellido1" name="apellido1" value="<?php echo $firstSurname ?>"><span
                                     class="error"><?php echo $firstSurnameError ?></span><br><br>
-                            <label for="apellido2">Segundo apellido:</label>
+                            <label for="apellido2">Segundo apellido:</label><br>
                             <input type="text" id="apellido2" name="apellido2"
                                    value="<?php echo $secondSurname ?>"><span
                                     class="error"><?php echo $secondSurnameError ?></span><br><br>
-                            <label for="email">Email:</label>
+                            <label for="email">Email:</label><br>
                             <input type="email" id="email" name="email" value="<?php echo $email ?>"><span
                                     class="error"><?php echo $emailError ?></span><br><br>
-                            <label for="telefono">Teléfono:</label>
+                            <label for="telefono">Teléfono:</label><br>
                             <input type="text" id="telefono" name="telefono" value="<?php echo $telephone ?>"><span
                                     class="error"><?php echo $telephoneError ?></span><br><br>
                             <?php if (!isset($routes[5])) : ?>
@@ -177,15 +194,17 @@ if (isset($_POST["buscar"]) && !empty($_SESSION["contactos"])) {
                             <?php endif ?>
                         </form>
                     <?php endif ?>
-
-                    <?php if ($table && empty($_SESSION["contactos"])) : ?>
+                    <?php 
+                    $conexion->query('SELECT nombre, apellido1, apellido2, email, telefono, id FROM Ag_contactos WHERE idUsuario=:idUsuario');
+                    $conexion->bind(":idUsuario", $_SESSION["usuario"]["id"]);
+                    $conexion->execute();
+                    $result = $conexion->obtenerTablaAsociativa();
+                    ?>
+                    <?php if ($table && empty($result) && !isset($_POST["buscar"])) : ?>
                         <h3>La lista de contactos esta vacía</h3>
                     <?php endif ?>
-
-                    <?php if (($table && !empty($_SESSION["contactos"])
-                            || isset($_POST["borrar"])
-                            || (isset($routes[5]) && $routes[5] === "borrar"))
-                        && !isset($_POST["buscar"])) : ?>
+                    <?php if (($table && !empty($_SESSION["usuario"]) || isset($_POST["borrar"])
+                            || (isset($routes[5]) && $routes[5] === "borrar")) && !isset($_POST["buscar"]) && !empty($result)) : ?>
                         <table class="contenido-paises-tabla">
                             <tr>
                                 <th class="contenido-paises-th">Nombre</th>
@@ -195,7 +214,8 @@ if (isset($_POST["buscar"]) && !empty($_SESSION["contactos"])) {
                                 <th class="contenido-paises-th">Teléfono</th>
                                 <th class="contenido-paises-th">Opciones</th>
                             </tr>
-                            <?php foreach ($_SESSION["contactos"] as $key => $valor) : ?>
+                            <?php
+                            foreach ($conexion->obtenerTablaAsociativa() as $key => $valor)  :?>
                                 <tr>
                                     <td class="contenido-paises-td"><?php echo $valor["nombre"] ?></td>
                                     <td class="contenido-paises-td"><?php echo $valor["apellido1"] ?></td>
@@ -203,12 +223,12 @@ if (isset($_POST["buscar"]) && !empty($_SESSION["contactos"])) {
                                     <td class="contenido-paises-td"><?php echo $valor["email"] ?></td>
                                     <td class="contenido-paises-td"><?php echo $valor["telefono"] ?></td>
                                     <td class="contenido-paises-td">
-                                        <a href='<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>/modificar/<?php echo $key ?>'>
+                                        <a href='<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>/modificar/<?php echo $valor["id"] ?>'>
                                             <img class="contenido-paises-img"
                                                  src='../../../ejercicios/BBDD/agendadecontactos/images/modificar.png'
                                                  title='Modificar contacto'>
                                         </a>
-                                        <a href='<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>/borrar/<?php echo $key ?>'>
+                                        <a href='<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>/borrar/<?php echo $valor["id"] ?>'>
                                             <img class="contenido-paises-img"
                                                  src='../../../ejercicios/BBDD/agendadecontactos/images/eliminar.png'
                                                  title='Eliminar contacto'>
@@ -217,10 +237,14 @@ if (isset($_POST["buscar"]) && !empty($_SESSION["contactos"])) {
                             <?php endforeach ?>
                         </table>
                     <?php endif ?>
-
-
                     <!--Necesita filtrar en caso de ausencia de contacto -->
-                    <?php if (isset($_POST["buscar"]) && !empty($_SESSION["contactos"])) : ?>
+                    <?php if (isset($_POST["buscar"])) : ?>
+                        <?php
+                        $nombreBuscar = $_POST["nombreBuscar"];
+                        $conexion->query("SELECT nombre, apellido1, apellido2,email, telefono, id FROM Ag_contactos WHERE idUsuario=:idUsuario AND Ag_contactos.nombre LIKE '$nombreBuscar%'");
+                        $conexion->bind(":idUsuario", $_SESSION["usuario"]["id"]);
+                        $conexion->execute();
+                        ?>
                         <?php if ($header) : ?>
                             <table class="contenido-paises-tabla">
                                 <tr>
@@ -231,8 +255,10 @@ if (isset($_POST["buscar"]) && !empty($_SESSION["contactos"])) {
                                     <th class="contenido-paises-th">Teléfono</th>
                                     <th class="contenido-paises-th">Opciones</th>
                                 </tr>
-                                <?php foreach ($_SESSION["contactos"] as $key => $valor) : ?>
-                                    <?php if (preg_match('#^' . strtoupper(trim($_POST['nombreBuscar'])) . '.*#s', strtoupper(trim($valor["nombre"])))) : ?>
+                                <?php foreach ($conexion->obtenerTablaAsociativa() as $key => $valor) : ?>
+                                    <?php if (preg_match('#^' . strtoupper(trim($_POST['nombreBuscar'])) . '.*#s', strtoupper(trim($valor["nombre"])))) :
+
+                                        ?>
                                         <tr>
                                             <td class="contenido-paises-td"><?php echo $valor["nombre"] ?></td>
                                             <td class="contenido-paises-td"><?php echo $valor["apellido1"] ?></td>
@@ -240,12 +266,12 @@ if (isset($_POST["buscar"]) && !empty($_SESSION["contactos"])) {
                                             <td class="contenido-paises-td"><?php echo $valor["email"] ?></td>
                                             <td class="contenido-paises-td"><?php echo $valor["telefono"] ?></td>
                                             <td class="contenido-paises-td">
-                                                <a href='<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>/modificar/<?php echo $key ?>'>
+                                                <a href='<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>/modificar/<?php echo $valor["id"] ?>'>
                                                     <img class="contenido-paises-img"
                                                          src='../../../ejercicios/BBDD/agendadecontactos/images/modificar.png'
                                                          title='Modificar contacto'>
                                                 </a>
-                                                <a href='<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>/borrar/<?php echo $key ?>'>
+                                                <a href='<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>/borrar/<?php echo $valor["id"] ?>'>
                                                     <img class="contenido-paises-img"
                                                          src='../../../ejercicios/BBDD/agendadecontactos/images/eliminar.png'
                                                          title='Eliminar contacto'>
@@ -258,10 +284,11 @@ if (isset($_POST["buscar"]) && !empty($_SESSION["contactos"])) {
                             <h3>No hay resultados</h3>
                         <?php endif ?>
                     <?php endif ?>
+
                 </div>
                 <div class="botonera">
                     <div>
-                        <a href="<?php echo $basepath ?>ejercicios/<?php echo isset($routes[5]) ? "BBDD/agendadecontactos/agenda" : "" ?>"
+                        <a href="<?php echo $basepath ?>ejercicios/<?php echo isset($routes[5]) ? "BBDD/agendadecontactos/" : "" ?>"
                            class="btnVolver">Volver</a>
                     </div>
                     <div>

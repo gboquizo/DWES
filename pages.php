@@ -20,7 +20,11 @@ if (($routes[1] === "proyectos" || $routes[1] === "ejercicios")  && count($route
 }
 
 if (($routes[1] === "proyectos" || $routes[1] === "ejercicios")  && count($routes) === 5 || isset($routes[5]) && isset($routes[6])) {
-    include(__DIR__ ."/". $routes[1] . "/" . $routes[2] . "/" . $routes[3] . "/" . $routes[4] . ".php");
+include(__DIR__ ."/". $routes[1] . "/" . $routes[2] . "/" . $routes[3] . "/" . $routes[4] . ".php");
 }
+
+/*if ( $routes[1] === "ejercicios" && $routes[2] === "devsymfony"  && count($routes) === 6) {
+include(__DIR__ ."/". $routes[1] . "/" . $routes[2] . "/" . $routes[3] . "/" . $routes[4] ."/" . $routes[5] . ".php");
+}*/
 
 ?>

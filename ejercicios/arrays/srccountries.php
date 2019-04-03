@@ -56,5 +56,5 @@ $continentes = [
     ],
 ];
 
-$tabla = ['Continente', 'País', 'Capital', 'Bandera'];
+$table = ['Continente', 'País', 'Capital', 'Bandera'];
 ?>

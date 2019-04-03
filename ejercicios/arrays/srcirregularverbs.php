@@ -191,5 +191,5 @@ $verbos = [
             ["write", "wrote", "written", "escribir"]
 ];
 
-$tabla = ['Infinitivo', 'Pasado', 'Participio', 'Traducción'];
+$table = ['Infinitivo', 'Pasado', 'Participio', 'Traducción'];
 ?>

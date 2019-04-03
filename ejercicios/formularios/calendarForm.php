@@ -63,7 +63,7 @@ if (!empty($_POST)) {
                                 <caption
                                         style='margin: 0 auto; font-weight: bold; padding:16px; font-size: 2rem;'><?php echo $meses[$mes] . " " . $anno ?></caption>
                                 <tr>
-                                    <?php foreach ($tabla as $celda) : ?>
+                                    <?php foreach ($table as $celda) : ?>
                                         <th style='border: 	1px solid; font-weight: bold; padding:16px; background-color: crimson;'>
                                             <?php echo $celda; ?>
                                         </th>

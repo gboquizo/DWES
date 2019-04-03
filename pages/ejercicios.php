@@ -16,6 +16,9 @@
                     <h3>Declaraciones en PHP</h3>
                     <ol>
                         <li>
+                            <a class="cool-link" href="https://sway.office.com/K2rNI4reEwHV0XrT?ref=Link" target="_blank">Usabilidad: Experiencia de usuario</a>
+                        </li>
+                        <li>
                             <a class="cool-link" href="basicos/holamundo">Hola mundo</a>
                         </li>
                         <li>
@@ -81,9 +84,6 @@
                         </li>
                         <li>
                             <a class="cool-link" href="arrays/restaurant">Restaurante</a>
-                        </li>
-                        <li class="pendiente">
-                            <a class="pendiente">Test de usabilidad</a>
                         </li>
                     </ol>
                 </div>
@@ -173,7 +173,7 @@
                     <h3>Objetos</h3>
                     <ol>
                         <li>
-                            <a class="cool-link" href="objetos/index">Prueba</a>
+                            <a class="cool-link" href="objetos/index">Prueba de manejo de objetos con autoload</a>
                         </li>
                     </ol>
                 </div>
@@ -183,7 +183,10 @@
                     <h3>BBDDD</h3>
                     <ol>
                         <li>
-                            <a class="cool-link" href="BBDD/agendadecontactos/agenda">Agenda de contactos con BBDD</a>
+                            <a class="cool-link" href="BBDD/agendadecontactos/testAgenda">Agenda de contactos con BBDD</a>
+                        </li>
+                        <li>
+                            <a class="cool-link" href="BBDD/blogdenoticias/index.php">Blog de noticias</a>
                         </li>
                     </ol>
                 </div>

@@ -74,6 +74,14 @@
           <option name="port" value="9118" />
         </fileTransfer>
       </webServer>
+      <webServer id="76d02fd1-454e-4997-9925-5e3fc3852fdf" name="Servidor DWES Clase Local" url="http://192.168.115.63">
+        <fileTransfer host="192.168.115.63" port="21" rootFolder="/home/guillermo/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

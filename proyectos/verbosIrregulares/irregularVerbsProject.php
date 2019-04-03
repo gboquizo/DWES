@@ -117,7 +117,7 @@ function rellenarArrayVerbos($random, $verbos, $indiceVerboAleatorio, $arrayAlea
                             <form action="<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>" method="post">
                                 <table style='border: 1px solid; margin: 0 auto;'>
                                     <tr>
-                                        <?php foreach ($tabla as $celda) : ?>
+                                        <?php foreach ($table as $celda) : ?>
                                             <th class="contenido-paises-th">
                                                 <?php echo $celda; ?>
                                             </th>
@@ -193,7 +193,7 @@ function rellenarArrayVerbos($random, $verbos, $indiceVerboAleatorio, $arrayAlea
                             <form action="<?php echo htmlspecialchars($_SERVER["REQUEST_URI"]); ?>" method="post">
                                 <table border="2">
                                     <tr>
-                                        <?php foreach ($tabla as $celda) : ?>
+                                        <?php foreach ($table as $celda) : ?>
                                             <th class="restaurante-th">
                                                 <?php echo $celda; ?>
                                             </th>

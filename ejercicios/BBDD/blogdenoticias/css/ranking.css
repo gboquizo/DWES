@@ -1,0 +1,25 @@
+.star-rating {
+    font-size: 0;
+    display: inline-block;
+}
+
+.star-rating a {
+    text-decoration: none;
+    display: inline-block;
+    /* Volver a dar tamaño al texto */
+    font-size: 32px;
+    font-size: 2rem;
+
+    color: #777;
+}
+
+.star-rating:hover a {
+    color: rgb(39, 130, 228);
+}
+
+/*
+ * El selector de hijo, es necesario para aumentar la especifidad
+ */
+.star-rating > a:hover ~ a {
+    color: #999;
+}

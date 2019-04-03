@@ -37,7 +37,7 @@ $carta = [
     ]
 ];
 
-$tabla = [
+$table = [
     'Menú número', 'Primer plato', 'Foto', 'Precio',
     'Segundo plato', 'Foto', 'Precio',
     'Postre', 'Foto', 'Precio', "Total (20% desc.)"
