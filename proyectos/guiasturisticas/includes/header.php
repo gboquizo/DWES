@@ -24,7 +24,7 @@ session_start();
             </li>
         <?php else: ?>
         <li style="color:white;">
-             Visitante
+             visitante
         </li>
         <?php endif; ?>
     </ul>

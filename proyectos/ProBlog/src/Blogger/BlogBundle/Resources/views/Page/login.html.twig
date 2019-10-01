@@ -1,6 +1,6 @@
 {# src/Blogger/BlogBundle/Resources/views/Page/index.html.twig #}
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta http-equiv="Content-Type" content="text/html" ; charset=utf-8"/>
     <title>{% block title %}symblog{% endblock %} - symblog</title>
@@ -36,6 +36,7 @@
                         {% if app.user %}
                             <li><a href="{{ path('newBlog')}}">New Blog</a></li>
                         {% endif %}
+                        <li><a id="custom-a" href="/~guillermo/proyectos">Return to server</a></li>
                     </ul>
                 </nav>
             {% endblock %}

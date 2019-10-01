@@ -1,16 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/ejercicios/basicos/multiplicationTable.php" line="17" mnemonic="7" />
-    <bookmark url="file://$PROJECT_DIR$/css/estilos.css" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b394e9e2-38cd-4705-91e8-089a6bdf2b89" name="Default Changelist" comment="" />
+    <list default="true" id="b394e9e2-38cd-4705-91e8-089a6bdf2b89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/proyectos/Jobeet/web/images/button-other.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/eliminar.png" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/eliminar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/modificar.png" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/modificar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/cookies/contadorVisitas.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/cookies/contadorVisitas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/objetos/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios/plantilla.php" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios/plantilla.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/Jobeet/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/Jobeet/app/Resources/views/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/Jobeet/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/Jobeet/web/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/ProBlog/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/ProBlog/app/Resources/views/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/ProBlog/src/Blogger/BlogBundle/Resources/views/Page/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/ProBlog/src/Blogger/BlogBundle/Resources/views/Page/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/guiasturisticas/clases/GuiaTuristica.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/guiasturisticas/clases/GuiaTuristica.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/guiasturisticas/clases/PuntoInteres.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/guiasturisticas/clases/PuntoInteres.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/guiasturisticas/clases/Recorrido.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/guiasturisticas/clases/Recorrido.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/guiasturisticas/clases/Usuarios.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/guiasturisticas/clases/Usuarios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/guiasturisticas/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/guiasturisticas/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/guiasturisticas/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/guiasturisticas/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/guiasturisticas/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/guiasturisticas/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/guiasturisticas/utiles/BaseDeDatos.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/guiasturisticas/utiles/BaseDeDatos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/mascotas/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/seriestv/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/seriestv/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/seriestv/funciones.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/seriestv/funciones.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/seriestv/pages/contenido.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/seriestv/pages/contenido.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/seriestv/pages/realizarEncuestas.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/seriestv/pages/realizarEncuestas.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -26,8 +76,8 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  <component name="FavoritesManager">
+    <favorites_list name="DWES" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,129 +113,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/ejercicios/objetos/prueba2.php" />
-        <option value="$PROJECT_DIR$/ejercicios/objetos/Contador.php" />
-        <option value="$PROJECT_DIR$/sitio.xml" />
-        <option value="$PROJECT_DIR$/ejercicios/objetos/Perro.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="&lt;3e85e0af-7033-4838-991e-7d679dfe5ea9&gt;/proyectos/mascotas/mascotas.php" />
-        <option value="$PROJECT_DIR$/proyectos/mascotas/mascotas.php" />
-        <option value="$PROJECT_DIR$/proyectos/mascotas/index.php" />
-        <option value="$PROJECT_DIR$/pages/proyectos.php" />
-        <option value="$PROJECT_DIR$/ejercicios/objetos/Persona.php" />
-        <option value="$PROJECT_DIR$/proyectos/mascotas/app/models/Persona.php" />
-        <option value="$PROJECT_DIR$/ejercicios/sesiones/autentificacionbasica.php" />
-        <option value="&lt;e8597545-30df-4d1a-a891-2dbfbbe0a616&gt;/css/estilos.css" />
-        <option value="$PROJECT_DIR$/css/estilos.css" />
-        <option value="$PROJECT_DIR$/ejercicios/sesiones/autentificacion.php" />
-        <option value="$PROJECT_DIR$/ejercicios/sesiones/contadorVisitas.php" />
-        <option value="$PROJECT_DIR$/ejercicios/cookies/contadorVisitas.php" />
-        <option value="$PROJECT_DIR$/ejercicios/plantilla.php" />
-        <option value="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/index.php" />
-        <option value="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/config.php" />
-        <option value="$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/includes/footer.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/config/config.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/clases/BD.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/clases/Config.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/clases/Usuario.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/clases/Documento.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/clases/Usuarios.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/clases/gestionDocumentos.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/clases/ClaveFirmas.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/clases/gestionClavesFirmas.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/pages/login.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/funciones.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/pages/loginCorrecto.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/index.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/includes/footer.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/includes/header.php" />
-        <option value="$PROJECT_DIR$/../exDiciembre/pages/registro.php" />
-        <option value="$PROJECT_DIR$/proyectos/verbosIrregulares/irregularVerbsProject.php" />
-        <option value="$PROJECT_DIR$/ejercicios/sesiones/js/script.js" />
-        <option value="$PROJECT_DIR$/ejercicios/objetos/Usuario.php" />
-        <option value="$PROJECT_DIR$/ejercicios/objetos/app/models/Usuario.php" />
-        <option value="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/app/models/Contacto.php" />
-        <option value="$PROJECT_DIR$/ejercicios/objetos/prueba3.php" />
-        <option value="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/index.php" />
-        <option value="$PROJECT_DIR$/pages/ejercicios.php" />
-        <option value="$PROJECT_DIR$/ejercicios/sesiones/agenda.php" />
-        <option value="$PROJECT_DIR$/ejercicios/BBDD/pages.php" />
-        <option value="&lt;e8597545-30df-4d1a-a891-2dbfbbe0a616&gt;/pages.php" />
-        <option value="$PROJECT_DIR$/pages.php" />
-        <option value="$PROJECT_DIR$/includes/header.php" />
-        <option value="$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/agenda.php" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-136" />
-    <option name="y" value="72" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
-  </component>
+  <component name="ProjectId" id="1RbUK70rXGvaLnNB2cFgZNPN9mX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DWES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exDiciembre" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="ejercicios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="ejercicios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="BBDD" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="ejercicios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="BBDD" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="agendadecontactos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="ejercicios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sesiones" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DWES" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="includes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -193,26 +124,32 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/proyectos/Jobeet/web/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\CFGS Desarrollo de Aplicaciones Web\2º DAW b\DWES\DWES\ejercicios\objetos\app\models" />
-      <recent name="D:\CFGS Desarrollo de Aplicaciones Web\2º DAW b\DWES\DWES\ejercicios\objetos\app" />
-      <recent name="$PROJECT_DIR$/ejercicios/cookies" />
-      <recent name="F:\home\guillermo\Escritorio\2º DAW bis\DWES\DWES\proyectos\mascotas" />
-      <recent name="$PROJECT_DIR$/ejercicios/basicos" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CFGS Desarrollo de Aplicaciones Web\2º DAW b\DWES\DWES\proyectos\Jobeet\web\images" />
       <recent name="D:\CFGS Desarrollo de Aplicaciones Web\2º DAW b\DWES\DWES\ejercicios\BBDD\agendadecontactos\css" />
       <recent name="D:\CFGS Desarrollo de Aplicaciones Web\2º DAW b\DWES\DWES\ejercicios\BBDD\agendadecontactos" />
       <recent name="D:\CFGS Desarrollo de Aplicaciones Web\2º DAW b\DWES\DWES\ejercicios\BBDD\agendadecontactos\app\models" />
       <recent name="$PROJECT_DIR$/../exDiciembre/pages" />
-      <recent name="$PROJECT_DIR$/ejercicios/BBDD" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CFGS Desarrollo de Aplicaciones Web\2º DAW b\DWES\DWES\proyectos\Jobeet\web\images" />
+      <recent name="D:\CFGS Desarrollo de Aplicaciones Web\2º DAW b\DWES\DWES\ejercicios\objetos\app\models" />
+      <recent name="D:\CFGS Desarrollo de Aplicaciones Web\2º DAW b\DWES\DWES\ejercicios\objetos\app" />
+      <recent name="$PROJECT_DIR$/ejercicios/cookies" />
+      <recent name="F:\home\guillermo\Escritorio\2º DAW bis\DWES\DWES\proyectos\mascotas" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -318,6 +255,10 @@
       <workItem from="1547477078760" duration="101000" />
       <workItem from="1547477205061" duration="689000" />
       <workItem from="1547490284754" duration="9533000" />
+      <workItem from="1555328956073" duration="735000" />
+      <workItem from="1556106194657" duration="670000" />
+      <workItem from="1560274835345" duration="146000" />
+      <workItem from="1569935225475" duration="21621000" />
     </task>
     <task id="LOCAL-00001" summary="fixing">
       <created>1546955326561</created>
@@ -336,64 +277,19 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426881000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1440" height="901" extended-state="6" />
-    <layout>
-      <window_info id="Structure" order="0" sideWeight="0.50079745" side_tool="true" weight="0.25416037" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49920255" weight="0.36978418" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3265306" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26944444" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32993197" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49924356" weight="0.24960506" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3282313" />
-      <window_info anchor="bottom" id="CSS Styles" order="14" weight="0.32962447" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.328777" />
-      <window_info anchor="right" id="Remote Host" order="4" weight="0.57697845" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Structure" order="0" sideWeight="0.50079745" side_tool="true" weight="0.25416037" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49920255" visible="true" weight="0.32020056" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32823366" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3253833" />
-      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.25312933" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32984293" />
-      <window_info anchor="bottom" id="CSS Styles" order="14" weight="0.32962447" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3294964" />
-      <window_info anchor="right" id="Remote Host" order="4" weight="0.4561151" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -404,263 +300,5 @@
     <MESSAGE value="fixing" />
     <MESSAGE value="preparing next exercise" />
     <option name="LAST_COMMIT_MESSAGE" value="preparing next exercise" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ejercicios/funciones/sumarDigitos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="38" column="36" selection-start-line="33" selection-start-column="24" selection-end-line="49" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/browserconfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/verCodigo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proyectos/verbosIrregulares/irregularVerbsProject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="226" column="38" selection-start-line="226" selection-start-column="38" selection-end-line="226" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10340" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/sesiones/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Revisión/gamemi/public_html/practicas/DWES/Bbdd/agendaDeContactos/agenda.php" />
-    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/composer.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_classmap.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_namespaces.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_psr4.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-518" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/autoload_static.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/composer.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/vendor/composer/ClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5724" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/app/models/Contador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/plantilla.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#179#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/app/models/Preferencia.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/exDiciembre/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/app/models/Usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proyectos/mascotas/prueba.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proyectos/mascotas/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/principal.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/app/models/Preferencia.php" />
-    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/prueba.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/app/models/Perro.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/app/models/Contacto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1110">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/app/models/Persona.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/prueba3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/prueba2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/objetos/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="59" column="27" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/ejercicios.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/add.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/eliminar.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/modificar.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/search.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/images/ver.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mifoto.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sitio.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/css/estilos.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/pages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/sesiones/agenda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2265">
-          <caret line="126" column="80" lean-forward="true" selection-start-line="126" selection-start-column="80" selection-end-line="126" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios/BBDD/agendadecontactos/agenda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="251" column="49" lean-forward="true" selection-start-line="251" selection-start-column="49" selection-end-line="251" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

@@ -18,8 +18,8 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="e1b023af-374f-4536-9f11-2c0ff4073807" name="Servidor DWES Casa Windows 10" url="http://192.168.1.133">
-        <fileTransfer host="192.168.1.133" port="22" rootFolder="/var/www/guillermo/public_html" accessType="SFTP">
+      <webServer id="e1b023af-374f-4536-9f11-2c0ff4073807" name="Servidor DWES Casa Windows 10" url="http://192.168.18.17">
+        <fileTransfer host="192.168.18.17" port="22" rootFolder="/home/guillermo/public_html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
           </advancedOptions>

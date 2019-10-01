@@ -107,10 +107,19 @@ body
   display: none;
 }
 
-#sub_header .post div a
+#sub_header .post div .btn-job
 {
   display: block;
   background: url(../images/button-post.jpg);
+  text-indent: -9999px;
+  width: 150px;
+  height: 48px;
+}
+
+#sub_header .post div .btn-other
+{
+  display: block;
+  background: url(../images/button-other.jpg);
   text-indent: -9999px;
   width: 150px;
   height: 48px;

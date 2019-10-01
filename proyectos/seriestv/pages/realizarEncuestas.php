@@ -47,7 +47,7 @@ if(isset($_POST['enviar'])){
                     <?php $i++;
                 }
                 ?>
-                <input class="btn btn-primary" style="margin-top: 20px" type="submit" value="Enviar encuesta" name="enviar">
+                <input class="btn btn-primary" style="margin-top: 20px" type="submit" value="Enviar encuesta" name="enviar"/>
             </form>
         </ul>
     <?php else: ?>

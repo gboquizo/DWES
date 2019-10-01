@@ -10,6 +10,7 @@ if ($routes[1] === "") {
     include(__DIR__ . "/pages/principal.php");
 }
 if ($routes[0] === "" && $routes[1] === "index.php") {
+    echo "en principal";
     include(__DIR__ . "/pages/principal.php");
 }
 if ($routes[1] !== "" && count($routes) === 2 && $routes[1] !== "agenda.php" && $routes[1] !== "index.php") {

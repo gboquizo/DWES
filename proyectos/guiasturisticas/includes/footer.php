@@ -8,7 +8,7 @@
 ?>
 <div class="col-12" style="background-color: #F57C00">
     <div class="card-body">
-        <p class="card-text" style="color: #FFF">Guías turísticas - <a href="" title="Aplicación para guías turísticas"><span style="color: #263238">Aplicación para guías turísticas</span></a> </p>
+        <p class="card-text" style="color: #FFF">Guías turísticas - <a href="/~guillermo/proyectos" title="Regresa al servidor"><span style="color: #263238">Volver al servidor</span></a> </p>
     </div>
 </div>
 </body>

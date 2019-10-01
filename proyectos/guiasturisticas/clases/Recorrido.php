@@ -23,7 +23,7 @@ class Recorrido
     public function crearRecorrido($titulo,$idGuiaTuristica,$puntosInteres){
         $puntoInteresClase= new PuntoInteres();
         $guiaTuristica = new GuiaTuristica();
-        $result = $this->_conexion->query('INSERT INTO proy_recorridos(id,titulo,id_guiaTuristica) 
+        $result = $this->_conexion->query('INSERT INTO recorridos(id,titulo,id_guiaTuristica) 
               VALUES(null,:titulo,:id_guiaTuristica);',
             array(
                 ':titulo'=>$titulo,
@@ -35,7 +35,7 @@ class Recorrido
         foreach($puntosInteres as $puntoInteres){
             $idPuntoInteres=$puntoInteresClase->getId($puntoInteres);
             $idRecorrido = $this->getId($titulo);
-            $result2=$this->_conexion->query('INSERT INTO proy_rel_recorridos_puntosinteres(id_Recorrido,id_PuntoInteres) 
+            $result2=$this->_conexion->query('INSERT INTO rel_recorridos_puntosinteres(id_Recorrido,id_PuntoInteres) 
               VALUES(:idRecorrido,:idPuntoInteres);',
                 array(
                     ':idPuntoInteres'=>$idPuntoInteres,
@@ -47,7 +47,7 @@ class Recorrido
         return $result->errorCode();
     }
     public function getId($titulo){
-            return $this->_conexion->query('SELECT id FROM proy_recorridos WHERE titulo = :titulo LIMIT 1',
+            return $this->_conexion->query('SELECT id FROM recorridos WHERE titulo = :titulo LIMIT 1',
                 array(
                     ":titulo" => $titulo
                 )
@@ -55,14 +55,14 @@ class Recorrido
     }
 
     public function getRecorridos($idGuia){
-        return $this->_conexion->query('SELECT * FROM proy_recorridos WHERE id_guiaTuristica = :idGuia',
+        return $this->_conexion->query('SELECT * FROM recorridos WHERE id_guiaTuristica = :idGuia',
             array(
                 ":idGuia" => $idGuia
             )
         )->fetchAll();
     }
     public function getPuntosInteres($idRecorrido){
-        return $this->_conexion->query('SELECT * FROM `proy_puntos_interes` WHERE id IN (SELECT `id_PuntoInteres` FROM `proy_rel_recorridos_puntosinteres` WHERE `id_Recorrido` = :id)',
+        return $this->_conexion->query('SELECT * FROM puntos_interes WHERE id IN (SELECT `id_PuntoInteres` FROM `proy_rel_recorridos_puntosinteres` WHERE `id_Recorrido` = :id)',
             array(
                 ":id" => $idRecorrido
             )

@@ -14,21 +14,21 @@
     <meta name="description" content="Web para el módulo de DWES del ciclo de DAW.">
     <meta name="keywords" content="HTML,CSS,JavaScript">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/~qbsagu/css/all.css">
-    <link rel="stylesheet" href="/~qbsagu/css/normalize.css">
-    <link rel="stylesheet" id="happenstance-elegantfont-css" href="/~qbsagu/css/elegantfont.css?ver=4.7.1"
+    <link rel="stylesheet" href="/~guillermo/css/all.css">
+    <link rel="stylesheet" href="/~guillermo/css/normalize.css">
+    <link rel="stylesheet" id="happenstance-elegantfont-css" href="/~guillermo/css/elegantfont.css?ver=4.7.1"
           type="text/css"
           media="all">
-    <link rel="stylesheet" href="/~qbsagu/css/estilos.css">
-    <link rel="shortcut icon" href="/~qbsagu/favicon.ico" type="image/png"/>
+    <link rel="stylesheet" href="/~guillermo/css/estilos.css">
+    <link rel="shortcut icon" href="/~guillermo/favicon.ico" type="image/png"/>
 <?php if ($routes[1] === "ejercicios" && isset($routes[3]) && $routes[3] === "agenda") : ?>
-    <link rel="stylesheet" href="/~qbsagu/ejercicios/sesiones/css/estilos.css">
+    <link rel="stylesheet" href="/~guillermo/ejercicios/sesiones/css/estilos.css">
     <title>Agenda</title>
 <?php elseif ($routes[1] === "ejercicios" && isset($routes[4]) && $routes[4] === "agenda") : ?>
-    <link rel="stylesheet" href="/~qbsagu/ejercicios/BBDD/agendadecontactos/css/estilos.css">
+    <link rel="stylesheet" href="/~guillermo/ejercicios/BBDD/agendadecontactos/css/estilos.css">
     <title>Agenda con BBDD</title>
 <?php elseif ($routes[1] === "ejercicios" && isset($routes[3]) && $routes[3] === "buscaminas") : ?>
-    <script src="/~qbsagu/ejercicios/sesiones/js/script.js"></script>
+    <script src="/~guillermo/ejercicios/sesiones/js/script.js"></script>
     <title>Buscaminas</title>
 <?php else : ?>
     <title>Desarrollo Web en Entorno Servidor</title>

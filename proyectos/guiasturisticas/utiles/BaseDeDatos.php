@@ -7,7 +7,7 @@
  */
 class BaseDeDatos{
     function conectar_base_datos(){
-        return new PDO('mysql:host=localhost;dbname=2daw1819_bosagu', '2daw1819_bosagu', 'usuario');
+        return new PDO('mysql:host=localhost;dbname=guiasturisticas', 'root', 'root');
     }
 }
 ?>

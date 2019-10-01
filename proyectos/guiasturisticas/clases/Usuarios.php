@@ -22,7 +22,7 @@ class Usuarios
 
     public function autenticar($nombre, $psw)
     {
-        $result = $this->_conexion->query('SELECT * FROM proy_usuarios WHERE nombre = :nombre',
+        $result = $this->_conexion->query('SELECT * FROM usuarios WHERE nombre = :nombre',
             array(":nombre" => $nombre)
         );
         $hash = password_verify($psw, $result->fetch()['password']);
@@ -33,7 +33,7 @@ class Usuarios
 
     public function crearUsuario($nombre, $password)
     {
-        $result = $this->_conexion->query('INSERT INTO proy_usuarios(nombre,password,tipo) VALUES(:nombre,:psw,:tipo);',
+        $result = $this->_conexion->query('INSERT INTO usuarios(nombre,password,tipo) VALUES(:nombre,:psw,:tipo);',
             array(
                 ":nombre" => $nombre,
                 ":psw" => password_hash($password, PASSWORD_DEFAULT),
@@ -46,34 +46,34 @@ class Usuarios
 
     public function getIdUsuario($nombre)
     {
-        return $this->_conexion->query('SELECT id FROM proy_usuarios WHERE nombre = :nombre;',
+        return $this->_conexion->query('SELECT id FROM usuarios WHERE nombre = :nombre;',
             array(":nombre" => $nombre)
         )->fetch()['id'];
     }
 
     public function getUsuario($nombre)
     {
-        return $this->_conexion->query('SELECT nombre FROM proy_usuarios WHERE nombre = :nombre;',
+        return $this->_conexion->query('SELECT nombre FROM usuarios WHERE nombre = :nombre;',
             array(":nombre" => $nombre)
         )->fetch()["nombre"];
     }
     public function getNombre($id)
     {
-        return $this->_conexion->query('SELECT nombre FROM proy_usuarios WHERE id = :id;',
+        return $this->_conexion->query('SELECT nombre FROM usuarios WHERE id = :id;',
             array(":id" => $id)
         )->fetch()["nombre"];
     }
 
     public function getUsuarios()
     {
-        return $this->_conexion->query('SELECT * FROM proy_usuarios',
+        return $this->_conexion->query('SELECT * FROM usuarios',
             array()
         )->fetchAll();
     }
 
     public function getUsuariosTipo($id)
     {
-        return $this->_conexion->query('SELECT tipo FROM proy_usuarios where id = :id;',
+        return $this->_conexion->query('SELECT tipo FROM usuarios where id = :id;',
             array(":id" => $id)
         )->fetch()["tipo"];
     }
@@ -81,7 +81,7 @@ class Usuarios
 
     public function comprobarUsuariosTipo($nombre)
     {
-        return $this->_conexion->query('SELECT tipo FROM proy_usuarios where nombre = :nombre;',
+        return $this->_conexion->query('SELECT tipo FROM usuarios where nombre = :nombre;',
             array(":nombre" => $nombre)
         )->fetch();
     }

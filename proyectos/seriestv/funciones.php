@@ -29,7 +29,7 @@ function generarMenu()
     <nav>
         <ul class="navigation">
             <li><a id="custom-a" href="index.php">Inicio</a></li>
-            <li><a id="custom-a" href="/~qbsagu/ejercicios">Volver al servidor</a></li>
+            <li><a id="custom-a" href="/~guillermo/proyectos">Volver al servidor</a></li>
         </ul>
     </nav>
 <?php endif ?>

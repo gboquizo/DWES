@@ -39,7 +39,7 @@ for ($i = 0; $i < count($id); $i++) {
                     </div>
                     <h2><?php echo $serie["titulo"] ?></h2>
                 </header>
-                <img src="/~qbsagu/proyectos/seriestv/images/giphy.gif"
+                <img src="/~guillermo/proyectos/seriestv/images/giphy.gif"
                      alt="<?php echo $serie["titulo"] ?> image not found" class="large"/>
                 <div class="snippet">
                     <?php $contenido = "Lorem ipsum dolor sit 
@@ -84,8 +84,8 @@ for ($i = 0; $i < count($id); $i++) {
                 <h2><?php echo $serie["titulo"] ?></h2>
             </header>
 
-            <a href="/~qbsagu/proyectos/seriestv/images/giphy.gif" download="<?php echo $serie["image"] ?>">
-                <img src="/~qbsagu/proyectos/seriestv/images/giphy.gif" alt="<?php echo $serie["titulo"] ?> image not found"
+            <a href="/~guillermo/proyectos/seriestv/images/giphy.gif" download="<?php echo $serie["image"] ?>">
+                <img src="/~guillermo/proyectos/seriestv/images/giphy.gif" alt="<?php echo $serie["titulo"] ?> image not found"
                      class="large"/>
             </a>
             <div class="snippet">

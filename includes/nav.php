@@ -8,14 +8,14 @@
  */
 ?>
 <nav class="nav-icon">
-    <a href="/../../~qbsagu">
+    <a href="/../../~guillermo/">
         <i id="nav-inicio" class="fab fa-fort-awesome fa-3x icon" title="Inicio"></i>
     </a>
-    <a href="/../../~qbsagu/ejercicios">
+    <a href="/../../~guillermo/ejercicios">
         <i id="nav-exercises" class="fas fa-code fa-3x icon <?php echo $routes[1] == "ejercicios" ? "activo" : "" ?>"
            title="Ejercicios"></i>
     </a>
-    <a href="/../../~qbsagu/proyectos">
+    <a href="/../../~guillermo/proyectos">
         <i id="nav-projects" class="fa fa-tasks fa-3x icon <?php echo $routes[1] == "proyectos" ? "activo" : "" ?>"
            title="Proyectos"></i>
     </a>

@@ -25,7 +25,7 @@ class PuntoInteres
         if ($this->comprobarSiExiste($titulo)) {
             return false;
         }
-        $result = $this->_conexion->query('INSERT INTO proy_puntos_interes(id,titulo,descripcion,imagen,telefono,id_usuario) 
+        $result = $this->_conexion->query('INSERT INTO puntos_interes(id,titulo,descripcion,imagen,telefono,id_usuario) 
               VALUES(null,:titulo,:descripcion,:imagen,:telefono,:id_usuario);',
             array(
                 ':titulo' => trim($titulo),
@@ -42,7 +42,7 @@ class PuntoInteres
 
     public function comprobarSiExiste($titulo)
     {
-        $result = $this->_conexion->query('SELECT * FROM proy_puntos_interes WHERE titulo = :titulo LIMIT 1',
+        $result = $this->_conexion->query('SELECT * FROM puntos_interes WHERE titulo = :titulo LIMIT 1',
             array(
                 ":titulo" => $titulo
             )
@@ -56,7 +56,7 @@ class PuntoInteres
 
     public function getUnosCuantosPuntosInteres($inicio, $postPorPagina)
     {
-        return $this->_conexion->query('SELECT SQL_CALC_FOUND_ROWS * FROM proy_puntos_interes LIMIT '.$inicio.','.$postPorPagina,
+        return $this->_conexion->query('SELECT SQL_CALC_FOUND_ROWS * FROM puntos_interes LIMIT '.$inicio.','.$postPorPagina,
            []
         )->fetchAll();
     }
@@ -69,7 +69,7 @@ class PuntoInteres
 
     public function getPuntoInteres($id)
     {
-        return $this->_conexion->query('SELECT * FROM proy_puntos_interes WHERE id = :id LIMIT 1',
+        return $this->_conexion->query('SELECT * FROM puntos_interes WHERE id = :id LIMIT 1',
             array(
                 ":id" => $id
             )
@@ -78,12 +78,12 @@ class PuntoInteres
 
     public function getPuntosInteres()
     {
-        return $this->_conexion->query('SELECT * FROM proy_puntos_interes', [])->fetchAll();
+        return $this->_conexion->query('SELECT * FROM puntos_interes', [])->fetchAll();
     }
 
     public function getId($titulo)
     {
-        return $this->_conexion->query('SELECT id FROM proy_puntos_interes WHERE titulo = :titulo LIMIT 1',
+        return $this->_conexion->query('SELECT id FROM puntos_interes WHERE titulo = :titulo LIMIT 1',
             array(
                 ":titulo" => $titulo
             )
@@ -92,7 +92,7 @@ class PuntoInteres
 
     public function autenticar($nombre, $psw)
     {
-        $result = $this->_conexion->query('SELECT * FROM proy_usuarios WHERE nombre = :nombre',
+        $result = $this->_conexion->query('SELECT * FROM usuarios WHERE nombre = :nombre',
             array(":nombre" => $nombre)
         );
         $hash = password_verify($psw, $result->fetch()['password']);
@@ -104,28 +104,28 @@ class PuntoInteres
 
     public function getIdUsuario($nombre)
     {
-        return $this->_conexion->query('SELECT id FROM proy_usuarios WHERE nombre = :nombre;',
+        return $this->_conexion->query('SELECT id FROM usuarios WHERE nombre = :nombre;',
             array(":nombre" => $nombre)
         )->fetch()['id'];
     }
 
     public function getUsuario($nombre)
     {
-        return $this->_conexion->query('SELECT nombre FROM proy_usuarios WHERE nombre = :nombre;',
+        return $this->_conexion->query('SELECT nombre FROM usuarios WHERE nombre = :nombre;',
             array(":nombre" => $nombre)
         )->fetch()["nombre"];
     }
 
     public function getUsuarios()
     {
-        return $this->_conexion->query('SELECT * FROM proy_usuarios',
+        return $this->_conexion->query('SELECT * FROM usuarios',
             array()
         )->fetchAll();
     }
 
     public function getImages()
     {
-        return $this->_conexion->query('SELECT imagen FROM proy_puntos_interes',
+        return $this->_conexion->query('SELECT imagen FROM puntos_interes',
             array()
         )->fetchAll();
     }

@@ -34,8 +34,9 @@
                                     <li><a href="{{ path('login')}}">Login</a></li>
                                 {% endif %}
                                 {% if app.user %}
-                                    <li><a href="{{ path('newBlog')}}">New Blog</a></li>
+                                    <li><a href="{{ path('newBlog')}}">Nuevo Blog</a></li>
                                 {% endif %}
+                                <li><a id="custom-a" href="/~guillermo/proyectos">Return to server</a></li>
                             </ul>
                         </nav>
                     {% endblock %}

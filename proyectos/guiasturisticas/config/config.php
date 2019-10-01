@@ -7,7 +7,7 @@
  * @license http://opensource.org/licenses/gpl-license.php  GNU Public License
  */
 define("HOST", "localhost");
-define("DATABASE", "2daw1819_bosagu");
-define("USER", "2daw1819_bosagu");
-define("PASSWORD", "usuario");
+define("DATABASE", "guiasturisticas");
+define("USER", "root");
+define("PASSWORD", "root");
 ?>
